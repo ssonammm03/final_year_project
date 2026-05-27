@@ -1,0 +1,12 @@
+node_modules/
+__pycache__/
+.env
+venv/
+dist/
+build/
+*.pyc
+.DS_Store
+coverage/
+.chromadb/
+models/
+*.pt

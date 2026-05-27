@@ -1,0 +1,19 @@
+{
+    "BBPL": 1,
+    "BCCL": 2,
+    "BFAL": 3,
+    "BIL": 4,
+    "BNBL": 5,
+    "BPCL": 6,
+    "BTCL": 7,
+    "DFAL": 8,
+    "DPL": 9,
+    "DPNB": 10,
+    "DWAL": 11,
+    "GICB": 12,
+    "KCL": 13,
+    "PCAL": 14,
+    "RICB": 15,
+    "STCB": 16,
+    "TBL": 17
+}

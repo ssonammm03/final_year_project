@@ -1,0 +1,905 @@
+[
+    {
+        "user_id": "demo_user",
+        "company": "STCB",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-25T02:12:11.195811"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "STCB",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-25T02:13:01.340162"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T03:00:13.819512"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T03:00:20.342718"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T03:01:23.785328"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T03:01:52.461885"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T03:02:14.348098"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T03:02:17.180851"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T05:02:18.201464"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T12:09:19.614459"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T12:09:23.214815"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T12:13:53.795574"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-25T12:14:38.623917"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T12:19:45.057644"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T12:19:57.653781"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T12:19:59.976828"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BPCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T12:20:02.158478"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T12:20:04.946500"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T12:54:56.334581"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T13:05:23.997839"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T13:11:55.870904"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T13:27:34.232007"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T13:40:18.974323"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T13:41:34.351056"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T13:45:01.057323"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T13:45:26.640837"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T13:51:46.470039"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T16:09:54.726740"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T16:12:43.436483"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T16:45:04.323075"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T21:50:39.018338"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-25T23:46:29.698071"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-26T01:46:31.370325"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-26T21:21:17.180232"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-26T21:22:30.611452"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-26T21:53:51.674097"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-26T21:54:05.933947"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-26T22:06:10.140098"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-26T22:14:54.627154"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-26T22:32:42.719280"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-26T22:57:42.117729"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-26T23:07:07.415622"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-26T23:58:13.814424"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T00:13:28.588974"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T00:19:52.307394"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T00:21:35.486901"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BPCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T00:21:56.644032"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T00:21:59.081347"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T00:22:01.932577"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T00:59:09.526508"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T01:02:13.000485"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T01:16:14.427432"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T01:22:43.815745"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T01:22:54.633805"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BPCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T01:23:02.870365"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "STCB",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T01:23:09.550878"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "STCBL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T01:24:57.862115"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T01:51:58.889954"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T01:52:32.744265"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BPCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T01:53:00.877761"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T01:54:01.914122"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:02:37.436877"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:03:39.394581"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BPCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:03:41.014068"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:06:39.612050"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:08:01.545654"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:08:38.080018"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BPCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:14:37.352634"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:24:14.096857"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:24:46.798009"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:25:01.778320"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BPCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:25:18.955051"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:25:33.125233"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:25:46.274820"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:45:12.599428"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:45:30.016461"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T02:46:09.812219"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T02:48:01.835206"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T03:32:38.576132"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T13:28:52.105992"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T13:32:21.913159"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T13:34:55.233672"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T13:35:59.168621"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T13:36:22.805253"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BPCL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T13:37:00.146061"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T13:57:47.486714"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T13:58:26.398395"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T13:59:24.262021"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T13:59:43.994704"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T14:00:45.309167"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T14:01:41.655124"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T14:05:32.222909"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T14:12:00.073865"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T14:12:51.084078"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T14:13:30.490226"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T14:13:57.685981"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T14:24:13.299001"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T14:26:02.538227"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T14:26:52.215636"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "STCBL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T14:27:27.272955"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T14:41:24.037323"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T14:42:37.543102"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T14:52:31.393960"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BPCL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-05-27T14:53:14.273118"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T15:00:47.797174"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:01:49.960672"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T15:04:20.721689"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T15:05:04.446493"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:05:17.895190"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T15:14:16.497665"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BNBL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T15:14:47.086942"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:14:58.500849"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T15:30:56.870413"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:31:34.973295"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T15:31:47.957473"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:32:07.411776"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T15:42:53.787119"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:43:19.917370"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T15:43:26.395542"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:43:43.053671"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T15:44:42.598999"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T15:53:46.737656"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T15:56:56.255423"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:57:05.613181"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:57:51.549877"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:57:57.242759"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:58:19.988613"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:58:20.495504"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T15:58:20.982718"
+    }
+]

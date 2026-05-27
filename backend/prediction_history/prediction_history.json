@@ -1,0 +1,1318 @@
+[
+    {
+        "saved_at": "2026-05-11 02:29:21",
+        "company": "BBPL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 14.5,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 18.6256,
+            "change": 4.1256,
+            "return_pct": 28.4525,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 18.636,
+            "change": 4.136,
+            "return_pct": 28.5241,
+            "direction": "UP"
+        },
+        "rows_used": 7154
+    },
+    {
+        "saved_at": "2026-05-11 02:44:20",
+        "company": "BBPL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 14.5,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 18.6256,
+            "change": 4.1256,
+            "return_pct": 28.4525,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 18.636,
+            "change": 4.136,
+            "return_pct": 28.5241,
+            "direction": "UP"
+        },
+        "rows_used": 7154
+    },
+    {
+        "saved_at": "2026-05-11 02:45:12",
+        "company": "BCCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 70.97,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 67.4988,
+            "change": -3.4712,
+            "return_pct": -4.8911,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 67.4531,
+            "change": -3.5169,
+            "return_pct": -4.9555,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154
+    },
+    {
+        "saved_at": "2026-05-11 02:47:49",
+        "company": "BFAL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 104.84,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 104.0938,
+            "change": -0.7462,
+            "return_pct": -0.7117,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 104.0011,
+            "change": -0.8389,
+            "return_pct": -0.8002,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154
+    },
+    {
+        "saved_at": "2026-05-11 03:00:12",
+        "company": "BBPL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 14.5,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 18.6256,
+            "change": 4.1256,
+            "return_pct": 28.4525,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 18.636,
+            "change": 4.136,
+            "return_pct": 28.5241,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "BBPL's current market position reflects a strong bullish sentiment, with the TiDE model predicting a notable price increase over both the one-week and one-month horizons. The forecast suggests a predicted price of approximately 18.63, indicating a substantial return of around 28.5%. This upward momentum appears stable and aggressive, suggesting investor confidence in the stock's potential. Both forecast windows align directionally, reinforcing the bullish outlook. The anticipated price movements indicate a strengthening trend rather than volatility, suggesting a favorable environment for investors looking to capitalize on this upward trajectory. Overall, BBPL demonstrates solid short-term and medium-term growth potential, making it an attractive candidate for investment."
+    },
+    {
+        "saved_at": "2026-05-11 03:01:12",
+        "company": "BIL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 58.51,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 57.427,
+            "change": -1.083,
+            "return_pct": -1.851,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 57.3903,
+            "change": -1.1197,
+            "return_pct": -1.9136,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish outlook for BIL, with a predicted decline in price over both the short-term and medium-term. The one-week forecast suggests a modest drop to approximately 57.43, reflecting a 1.85% return loss, while the one-month projection aligns closely with this trend, anticipating a further decrease to around 57.39. This consistency in directional movement suggests a stable bearish momentum, characterized by gradual deterioration rather than aggressive volatility. Investors should remain cautious, as both forecasts reinforce a downward trajectory, indicating a potential consolidation phase that may precede further declines if market conditions do not improve."
+    },
+    {
+        "saved_at": "2026-05-11 09:30:02",
+        "company": "DFAL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 73.16,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 75.0489,
+            "change": 1.8889,
+            "return_pct": 2.5818,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 74.9859,
+            "change": 1.8259,
+            "return_pct": 2.4957,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "DFAL's current market position at a close of 73.16 suggests a positive short-term momentum, with the TiDE model forecasting a rise to approximately 75.05 over the next week, indicating a 2.58% return. The one-month outlook also reflects an upward trajectory, predicting a price of around 74.99, reinforcing a consistent bullish sentiment. Both forecast windows align directionally, suggesting a stable upward movement rather than a volatile one. The projected gains appear gradual, indicating a strengthening trend rather than aggressive fluctuations. Overall, DFAL's performance suggests a bullish outlook, supported by stable momentum in both the short and medium-term forecasts."
+    },
+    {
+        "saved_at": "2026-05-11 09:32:40",
+        "company": "BTCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 510.0,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 504.6435,
+            "change": -5.3565,
+            "return_pct": -1.0503,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 503.9587,
+            "change": -6.0413,
+            "return_pct": -1.1846,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE model indicates a bearish outlook for BTCL, with the stock expected to decline to approximately 504.64 in the coming week and further to around 503.96 over the next month. This translates to modest returns of -1.05% and -1.18% respectively, suggesting a consistent downward trend. The short-term momentum appears weak, characterized by a gradual decline rather than an aggressive sell-off, which may indicate a lack of strong conviction among sellers. Notably, both forecast windows align directionally, reinforcing the bearish sentiment. Overall, BTCL seems to be consolidating at these levels, but the persistent downward forecast invites caution for investors considering entry points."
+    },
+    {
+        "saved_at": "2026-05-11 10:04:21",
+        "company": "BIL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 58.51,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 57.427,
+            "change": -1.083,
+            "return_pct": -1.851,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 57.3903,
+            "change": -1.1197,
+            "return_pct": -1.9136,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for BIL, with a projected decline in price to 57.427 over the next week, reflecting a return of -1.851%. This trend continues into the medium term, with a forecasted price of 57.3903 for the month, suggesting a cumulative drop of -1.9136%. The alignment of both forecasts reinforces directional consistency, signaling a clear downward trajectory. The movement appears gradual rather than aggressive, indicating a potential consolidation phase rather than extreme volatility. Investors should remain cautious, as the current outlook suggests a weakening in bullish sentiment, warranting close monitoring of market conditions for any shifts in momentum."
+    },
+    {
+        "saved_at": "2026-05-11 10:04:43",
+        "company": "BFAL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 104.84,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 104.0938,
+            "change": -0.7462,
+            "return_pct": -0.7117,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 104.0011,
+            "change": -0.8389,
+            "return_pct": -0.8002,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for BFAL, with a projected price decline over the next week to 104.0938, reflecting a 0.7117% decrease. This trend persists into the medium-term forecast, where a further drop to 104.0011 suggests a continued bearish sentiment, marking an overall return of -0.8002%. The alignment of both forecasts indicates a consistent directional bias, reinforcing the bearish outlook. The anticipated price movements appear gradual rather than aggressive, suggesting a stable yet weakening market sentiment. Overall, BFAL is currently in a consolidating phase, with potential volatility as it navigates this downward trajectory."
+    },
+    {
+        "saved_at": "2026-05-11 10:10:37",
+        "company": "BBPL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 14.5,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 18.6256,
+            "change": 4.1256,
+            "return_pct": 28.4525,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 18.636,
+            "change": 4.136,
+            "return_pct": 28.5241,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "BBPL exhibits a robust short-term momentum, with a one-week forecast indicating a price increase to 18.6256, reflecting a substantial return of 28.45%. This bullish sentiment is echoed in the one-month forecast, which anticipates a similar rise to 18.636, reinforcing the upward trajectory. The alignment of both forecasts suggests strong directional consistency, indicating a clear bullish trend. The movement appears aggressive, signaling investor confidence and potential for further appreciation. Overall, BBPL is positioned favorably in the market, with momentum strengthening rather than consolidating, as evidenced by the consistent upward projections across both time frames. This outlook supports a positive investment thesis for the stock."
+    },
+    {
+        "saved_at": "2026-05-11 10:10:59",
+        "company": "BCCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 70.97,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 67.4988,
+            "change": -3.4712,
+            "return_pct": -4.8911,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 67.4531,
+            "change": -3.5169,
+            "return_pct": -4.9555,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "BCCL's TiDE model indicates a bearish outlook in both the short and medium term, with forecasts predicting a price decline to approximately 67.50 over the next month. The projected returns of -4.89% and -4.96% respectively suggest a consistent downward momentum, reflecting weak market sentiment. The alignment of both forecasts reinforces directional consistency, indicating a sustained bearish trend rather than a temporary fluctuation. The anticipated movement appears gradual rather than aggressive, suggesting that the market may be consolidating at lower levels as it absorbs negative sentiment. Overall, the stock's trajectory signals vulnerability, warranting caution for investors considering short-term positions."
+    },
+    {
+        "saved_at": "2026-05-11 10:11:24",
+        "company": "BFAL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 104.84,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 104.0938,
+            "change": -0.7462,
+            "return_pct": -0.7117,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 104.0011,
+            "change": -0.8389,
+            "return_pct": -0.8002,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for BFAL, with a projected price decline over the next week to 104.0938, reflecting a 0.7117% decrease. This trend persists into the medium-term forecast, where a further drop to 104.0011 suggests a continued bearish sentiment, marking an overall return of -0.8002%. The alignment of both forecasts indicates a consistent directional bias, reinforcing the bearish outlook. The anticipated price movements appear gradual rather than aggressive, suggesting a stable yet weakening market sentiment. Overall, BFAL is currently in a consolidating phase, with potential volatility as it navigates this downward trajectory."
+    },
+    {
+        "saved_at": "2026-05-11 10:11:47",
+        "company": "BIL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 58.51,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 57.427,
+            "change": -1.083,
+            "return_pct": -1.851,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 57.3903,
+            "change": -1.1197,
+            "return_pct": -1.9136,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for BIL, with a projected decline in price to 57.427 over the next week, reflecting a return of -1.851%. This trend continues into the medium term, with a forecasted price of 57.3903 for the month, suggesting a cumulative drop of -1.9136%. The alignment of both forecasts reinforces directional consistency, signaling a clear downward trajectory. The movement appears gradual rather than aggressive, indicating a potential consolidation phase rather than extreme volatility. Investors should remain cautious, as the current outlook suggests a weakening in bullish sentiment, warranting close monitoring of market conditions for any shifts in momentum."
+    },
+    {
+        "saved_at": "2026-05-11 10:12:03",
+        "company": "BNBL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 28.99,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 29.0286,
+            "change": 0.0386,
+            "return_pct": 0.1333,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 29.0178,
+            "change": 0.0278,
+            "return_pct": 0.0958,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a modest upward momentum for BNBL in both the short and medium term. The one-week forecast suggests a slight increase, with a projected price of 29.0286, reflecting a change of 0.0386 and a return of 0.1333%. Similarly, the one-month outlook aligns closely, predicting a price of 29.0178, with a change of 0.0278 and a return of 0.0958%. This consistent directional alignment suggests a stable bullish trend, albeit with gradual movement rather than aggressive shifts. Overall, the forecasts imply a strengthening sentiment, as both short-term and medium-term indicators point towards continued upward pressure in BNBL's stock price."
+    },
+    {
+        "saved_at": "2026-05-11 10:12:22",
+        "company": "BPCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 36.57,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 37.0857,
+            "change": 0.5157,
+            "return_pct": 1.4101,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 37.074,
+            "change": 0.504,
+            "return_pct": 1.378,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "BPCL's short-term momentum indicates a slight upward trajectory, with a one-week forecast suggesting a price increase to 37.0857, reflecting a return of 1.41%. This positive sentiment is echoed in the medium-term outlook, where the one-month forecast similarly projects an increase to 37.074, yielding a return of 1.38%. The alignment of both forecasts demonstrates directional consistency, reinforcing a bullish sentiment in the near term. The movement appears gradual rather than aggressive, suggesting a stable upward trend rather than volatility. Overall, BPCL exhibits strengthening momentum, signaling potential for continued gains as market conditions remain favorable for the stock."
+    },
+    {
+        "saved_at": "2026-05-11 10:12:38",
+        "company": "BTCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 510.0,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 504.6435,
+            "change": -5.3565,
+            "return_pct": -1.0503,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 503.9587,
+            "change": -6.0413,
+            "return_pct": -1.1846,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for BTCL, with a projected decline of 1.05% over the next week, followed by a slightly steeper drop of 1.18% in the upcoming month. This consistent downward trajectory suggests a weakening sentiment among investors, as both forecasts align directionally, reinforcing the bearish outlook. The movement appears gradual rather than aggressive, indicating a potential consolidation phase rather than sharp volatility. Given the current close of 510.0, the forecasts signal a lack of immediate bullish catalysts, suggesting that investors should remain cautious as the stock may continue to face downward pressure in the near term."
+    },
+    {
+        "saved_at": "2026-05-11 10:12:58",
+        "company": "DFAL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 73.16,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 75.0489,
+            "change": 1.8889,
+            "return_pct": 2.5818,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 74.9859,
+            "change": 1.8259,
+            "return_pct": 2.4957,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "DFAL exhibits a positive short-term momentum, with a one-week forecast suggesting a price increase to 75.0489, reflecting a 2.58% return. This aligns with the medium-term outlook, where the one-month forecast anticipates a slight uptick to 74.9859, indicating a consistent bullish sentiment over both time frames. The directional consistency between the forecasts reinforces the notion of a strengthening trend rather than mere volatility. The anticipated movements appear gradual, suggesting a stable ascent rather than aggressive fluctuations. Overall, the forecasts signal a favorable environment for DFAL, characterized by a bullish outlook supported by steady momentum."
+    },
+    {
+        "saved_at": "2026-05-11 10:13:35",
+        "company": "DPL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 9.0,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 12.1996,
+            "change": 3.1996,
+            "return_pct": 35.5507,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 12.2152,
+            "change": 3.2152,
+            "return_pct": 35.7244,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "DPL exhibits strong short-term momentum, with a projected price of $12.20 in one week, reflecting a significant 35.55% return. This bullish sentiment is further reinforced by the one-month forecast of $12.22, indicating a consistent upward trajectory with a slightly higher return of 35.72%. The alignment of both forecasts suggests directional consistency, signaling a robust bullish outlook. The anticipated movement appears aggressive, indicative of heightened investor interest and optimism surrounding DPL. Overall, the stock's performance trajectory is strengthening, with no signs of volatility or instability, positioning DPL favorably for short to medium-term investment strategies."
+    },
+    {
+        "saved_at": "2026-05-11 10:13:54",
+        "company": "DPNB",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 36.0,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 36.6862,
+            "change": 0.6862,
+            "return_pct": 1.9062,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 36.6746,
+            "change": 0.6746,
+            "return_pct": 1.8738,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a short-term upward momentum for DPNB, with a projected price of 36.6862 in one week, reflecting a 1.91% return. This suggests a positive sentiment among investors, likely driven by favorable market conditions or company-specific developments. Similarly, the one-month forecast of 36.6746, with a return of 1.87%, reinforces this bullish outlook. The alignment of both forecasts indicates directional consistency, suggesting a strengthening trend rather than mere volatility. The anticipated movements appear gradual, reflecting a stable upward trajectory rather than aggressive fluctuations. Overall, the analysis points to a bullish sentiment as DPNB navigates its growth potential in the current market environment."
+    },
+    {
+        "saved_at": "2026-05-11 10:14:22",
+        "company": "DWAL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 82.27,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 81.9274,
+            "change": -0.3426,
+            "return_pct": -0.4164,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 81.8639,
+            "change": -0.4061,
+            "return_pct": -0.4936,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE model indicates a bearish sentiment for DWAL in both the short-term and medium-term forecasts, with projected declines of 0.42% over the week and 0.49% over the month. This suggests a consistent downward momentum, reflecting a potentially weakening investor confidence. The alignment of both forecasts reinforces directional consistency, indicating that the stock is likely to experience sustained downward pressure. The gradual nature of the forecasted price decreases suggests a lack of aggressive selling, which may point to a consolidation phase rather than heightened volatility. Overall, DWAL appears to be in a bearish trend, warranting caution among investors considering short-term positions."
+    },
+    {
+        "saved_at": "2026-05-11 10:15:00",
+        "company": "GICB",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 27.82,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 26.9418,
+            "change": -0.8782,
+            "return_pct": -3.1566,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 26.9431,
+            "change": -0.8769,
+            "return_pct": -3.1521,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "GICB is currently exhibiting bearish momentum in both the short and medium-term forecasts provided by the TiDE model. The predicted decline of approximately 3.15% over the next week and month suggests a consistent downward trajectory, indicating that market sentiment is leaning negative. This directional consistency across both timeframes reinforces the bearish outlook, suggesting that the stock may be experiencing a gradual decline rather than an aggressive sell-off. The lack of volatility in the forecasts implies a stable but weakening price action. Investors should remain cautious as GICB navigates this downward trend, which could reflect broader market conditions or company-specific challenges."
+    },
+    {
+        "saved_at": "2026-05-11 10:15:23",
+        "company": "KCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 30.0,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 32.375,
+            "change": 2.375,
+            "return_pct": 7.9166,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 32.36,
+            "change": 2.36,
+            "return_pct": 7.8666,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "KCL exhibits a positive short-term momentum, with a projected price increase to 32.375 over the next week, reflecting a robust return of 7.92%. This upward trend is further supported by the one-month forecast, which suggests a slight but consistent increase to 32.36, indicating medium-term momentum remains favorable with a return of 7.87%. The alignment of both forecasts signals directional consistency and reinforces a bullish outlook. The movement appears to be gradual rather than aggressive, suggesting a stable ascent rather than volatility. Overall, KCL is poised for continued strength, with the forecasts indicating a solid foundation for further gains in the near term."
+    },
+    {
+        "saved_at": "2026-05-11 10:15:52",
+        "company": "PCAL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 24.45,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 31.775,
+            "change": 7.325,
+            "return_pct": 29.9592,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 31.7619,
+            "change": 7.3119,
+            "return_pct": 29.9055,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "PCAL has demonstrated strong short-term momentum, with a projected one-week price increase to 31.775, reflecting a robust return of nearly 30%. This upward trajectory is further supported by the one-month forecast, which indicates a similar price target of 31.7619, reinforcing the bullish sentiment. The consistency in directional movement across both time frames suggests a strengthening trend rather than mere volatility. While the anticipated price movements are aggressive, the sustained upward momentum indicates a favorable market sentiment towards PCAL. Overall, the forecasts present a bullish outlook, signaling potential investor confidence in the stock's performance in the near to medium term."
+    },
+    {
+        "saved_at": "2026-05-11 10:16:06",
+        "company": "RICB",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 78.99,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 77.391,
+            "change": -1.599,
+            "return_pct": -2.0243,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 77.3263,
+            "change": -1.6637,
+            "return_pct": -2.1063,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for RICB, with a projected decline to 77.391 over the next week, reflecting a loss of 2.02%. This trend is reinforced by a similar medium-term outlook predicting a price of 77.3263 in one month, suggesting consistent downward pressure with a slightly greater return of -2.11%. The alignment of both forecasts indicates directional consistency, underscoring a stable bearish sentiment. The anticipated price movements appear gradual rather than aggressive, signaling a potential consolidation phase rather than volatility. Investors should remain cautious, as the prevailing trends suggest a weakening in bullish sentiment for RICB in the near term."
+    },
+    {
+        "saved_at": "2026-05-11 10:16:23",
+        "company": "STCB",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 38.5,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 39.8525,
+            "change": 1.3525,
+            "return_pct": 3.5129,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 39.8272,
+            "change": 1.3272,
+            "return_pct": 3.4474,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a positive short-term momentum for STCB, with a projected price increase to 39.8525 over the next week, reflecting a 3.51% return. This upward trajectory suggests a bullish sentiment among investors, likely driven by favorable market conditions or company-specific catalysts. In the medium-term, the forecast remains similarly optimistic, with a slight price increase to 39.8272 over the month, reinforcing the bullish outlook. The alignment of both forecasts demonstrates directional consistency, indicating a stable and strengthening trend rather than volatility. The anticipated movements appear gradual, suggesting sustained buying interest rather than aggressive speculation, which may contribute to a more robust market position for STCB."
+    },
+    {
+        "saved_at": "2026-05-11 10:16:41",
+        "company": "TBL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 32.07,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 33.031,
+            "change": 0.961,
+            "return_pct": 2.9965,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 33.0235,
+            "change": 0.9535,
+            "return_pct": 2.973,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "TBL exhibits positive short-term momentum with a projected one-week price increase to $33.031, suggesting a 2.9965% return. This upward trajectory reflects a bullish sentiment among investors. The one-month forecast also indicates a similar upward movement to $33.0235, reinforcing the short-term outlook with a 2.973% return. The consistency in directional forecasts implies a strengthening bullish trend rather than mere volatility, indicating that the stock is not only stable but also poised for gradual appreciation. The alignment of both short-term and medium-term forecasts suggests a confident market stance, supporting the notion of sustained upward momentum in TBL's price trajectory."
+    },
+    {
+        "saved_at": "2026-05-13 16:35:14",
+        "company": "BFAL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 104.84,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 104.0938,
+            "change": -0.7462,
+            "return_pct": -0.7117,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 104.0011,
+            "change": -0.8389,
+            "return_pct": -0.8002,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for BFAL, with a projected price decline over the next week to 104.0938, reflecting a 0.7117% decrease. This trend persists into the medium-term forecast, where a further drop to 104.0011 suggests a continued bearish sentiment, marking an overall return of -0.8002%. The alignment of both forecasts indicates a consistent directional bias, reinforcing the bearish outlook. The anticipated price movements appear gradual rather than aggressive, suggesting a stable yet weakening market sentiment. Overall, BFAL is currently in a consolidating phase, with potential volatility as it navigates this downward trajectory."
+    },
+    {
+        "saved_at": "2026-05-14 12:39:29",
+        "company": "GICB",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 27.82,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 26.9418,
+            "change": -0.8782,
+            "return_pct": -3.1566,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 26.9431,
+            "change": -0.8769,
+            "return_pct": -3.1521,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "GICB is currently exhibiting bearish momentum in both the short and medium-term forecasts provided by the TiDE model. The predicted decline of approximately 3.15% over the next week and month suggests a consistent downward trajectory, indicating that market sentiment is leaning negative. This directional consistency across both timeframes reinforces the bearish outlook, suggesting that the stock may be experiencing a gradual decline rather than an aggressive sell-off. The lack of volatility in the forecasts implies a stable but weakening price action. Investors should remain cautious as GICB navigates this downward trend, which could reflect broader market conditions or company-specific challenges."
+    },
+    {
+        "saved_at": "2026-05-15 10:41:57",
+        "company": "BCCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 70.97,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 67.4988,
+            "change": -3.4712,
+            "return_pct": -4.8911,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 67.4531,
+            "change": -3.5169,
+            "return_pct": -4.9555,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "BCCL's TiDE model indicates a bearish outlook in both the short and medium term, with forecasts predicting a price decline to approximately 67.50 over the next month. The projected returns of -4.89% and -4.96% respectively suggest a consistent downward momentum, reflecting weak market sentiment. The alignment of both forecasts reinforces directional consistency, indicating a sustained bearish trend rather than a temporary fluctuation. The anticipated movement appears gradual rather than aggressive, suggesting that the market may be consolidating at lower levels as it absorbs negative sentiment. Overall, the stock's trajectory signals vulnerability, warranting caution for investors considering short-term positions."
+    },
+    {
+        "saved_at": "2026-05-15 10:43:48",
+        "company": "BCCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 70.97,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 67.4988,
+            "change": -3.4712,
+            "return_pct": -4.8911,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 67.4531,
+            "change": -3.5169,
+            "return_pct": -4.9555,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "BCCL's TiDE model indicates a bearish outlook in both the short and medium term, with forecasts predicting a price decline to approximately 67.50 over the next month. The projected returns of -4.89% and -4.96% respectively suggest a consistent downward momentum, reflecting weak market sentiment. The alignment of both forecasts reinforces directional consistency, indicating a sustained bearish trend rather than a temporary fluctuation. The anticipated movement appears gradual rather than aggressive, suggesting that the market may be consolidating at lower levels as it absorbs negative sentiment. Overall, the stock's trajectory signals vulnerability, warranting caution for investors considering short-term positions."
+    },
+    {
+        "saved_at": "2026-05-15 10:43:55",
+        "company": "BTCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 510.0,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 504.6435,
+            "change": -5.3565,
+            "return_pct": -1.0503,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 503.9587,
+            "change": -6.0413,
+            "return_pct": -1.1846,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for BTCL, with a projected decline of 1.05% over the next week, followed by a slightly steeper drop of 1.18% in the upcoming month. This consistent downward trajectory suggests a weakening sentiment among investors, as both forecasts align directionally, reinforcing the bearish outlook. The movement appears gradual rather than aggressive, indicating a potential consolidation phase rather than sharp volatility. Given the current close of 510.0, the forecasts signal a lack of immediate bullish catalysts, suggesting that investors should remain cautious as the stock may continue to face downward pressure in the near term."
+    },
+    {
+        "saved_at": "2026-05-15 10:44:10",
+        "company": "BTCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 510.0,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 504.6435,
+            "change": -5.3565,
+            "return_pct": -1.0503,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 503.9587,
+            "change": -6.0413,
+            "return_pct": -1.1846,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for BTCL, with a projected decline of 1.05% over the next week, followed by a slightly steeper drop of 1.18% in the upcoming month. This consistent downward trajectory suggests a weakening sentiment among investors, as both forecasts align directionally, reinforcing the bearish outlook. The movement appears gradual rather than aggressive, indicating a potential consolidation phase rather than sharp volatility. Given the current close of 510.0, the forecasts signal a lack of immediate bullish catalysts, suggesting that investors should remain cautious as the stock may continue to face downward pressure in the near term."
+    },
+    {
+        "saved_at": "2026-05-15 10:44:16",
+        "company": "RICB",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 78.99,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 77.391,
+            "change": -1.599,
+            "return_pct": -2.0243,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 77.3263,
+            "change": -1.6637,
+            "return_pct": -2.1063,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for RICB, with a projected decline to 77.391 over the next week, reflecting a loss of 2.02%. This trend is reinforced by a similar medium-term outlook predicting a price of 77.3263 in one month, suggesting consistent downward pressure with a slightly greater return of -2.11%. The alignment of both forecasts indicates directional consistency, underscoring a stable bearish sentiment. The anticipated price movements appear gradual rather than aggressive, signaling a potential consolidation phase rather than volatility. Investors should remain cautious, as the prevailing trends suggest a weakening in bullish sentiment for RICB in the near term."
+    },
+    {
+        "saved_at": "2026-05-15 10:44:28",
+        "company": "RICB",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 78.99,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 77.391,
+            "change": -1.599,
+            "return_pct": -2.0243,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 77.3263,
+            "change": -1.6637,
+            "return_pct": -2.1063,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for RICB, with a projected decline to 77.391 over the next week, reflecting a loss of 2.02%. This trend is reinforced by a similar medium-term outlook predicting a price of 77.3263 in one month, suggesting consistent downward pressure with a slightly greater return of -2.11%. The alignment of both forecasts indicates directional consistency, underscoring a stable bearish sentiment. The anticipated price movements appear gradual rather than aggressive, signaling a potential consolidation phase rather than volatility. Investors should remain cautious, as the prevailing trends suggest a weakening in bullish sentiment for RICB in the near term."
+    },
+    {
+        "saved_at": "2026-05-15 10:44:48",
+        "company": "DPNB",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 36.0,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 36.6862,
+            "change": 0.6862,
+            "return_pct": 1.9062,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 36.6746,
+            "change": 0.6746,
+            "return_pct": 1.8738,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a short-term upward momentum for DPNB, with a projected price of 36.6862 in one week, reflecting a 1.91% return. This suggests a positive sentiment among investors, likely driven by favorable market conditions or company-specific developments. Similarly, the one-month forecast of 36.6746, with a return of 1.87%, reinforces this bullish outlook. The alignment of both forecasts indicates directional consistency, suggesting a strengthening trend rather than mere volatility. The anticipated movements appear gradual, reflecting a stable upward trajectory rather than aggressive fluctuations. Overall, the analysis points to a bullish sentiment as DPNB navigates its growth potential in the current market environment."
+    },
+    {
+        "saved_at": "2026-05-15 10:53:14",
+        "company": "BFAL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 104.84,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 104.0938,
+            "change": -0.7462,
+            "return_pct": -0.7117,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 104.0011,
+            "change": -0.8389,
+            "return_pct": -0.8002,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for BFAL, with a projected price decline over the next week to 104.0938, reflecting a 0.7117% decrease. This trend persists into the medium-term forecast, where a further drop to 104.0011 suggests a continued bearish sentiment, marking an overall return of -0.8002%. The alignment of both forecasts indicates a consistent directional bias, reinforcing the bearish outlook. The anticipated price movements appear gradual rather than aggressive, suggesting a stable yet weakening market sentiment. Overall, BFAL is currently in a consolidating phase, with potential volatility as it navigates this downward trajectory."
+    },
+    {
+        "saved_at": "2026-05-15 10:55:52",
+        "company": "DPNB",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 36.0,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 36.6862,
+            "change": 0.6862,
+            "return_pct": 1.9062,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 36.6746,
+            "change": 0.6746,
+            "return_pct": 1.8738,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a short-term upward momentum for DPNB, with a projected price of 36.6862 in one week, reflecting a 1.91% return. This suggests a positive sentiment among investors, likely driven by favorable market conditions or company-specific developments. Similarly, the one-month forecast of 36.6746, with a return of 1.87%, reinforces this bullish outlook. The alignment of both forecasts indicates directional consistency, suggesting a strengthening trend rather than mere volatility. The anticipated movements appear gradual, reflecting a stable upward trajectory rather than aggressive fluctuations. Overall, the analysis points to a bullish sentiment as DPNB navigates its growth potential in the current market environment."
+    },
+    {
+        "saved_at": "2026-05-15 10:56:45",
+        "company": "DPNB",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 36.0,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 36.6862,
+            "change": 0.6862,
+            "return_pct": 1.9062,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 36.6746,
+            "change": 0.6746,
+            "return_pct": 1.8738,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a short-term upward momentum for DPNB, with a projected price of 36.6862 in one week, reflecting a 1.91% return. This suggests a positive sentiment among investors, likely driven by favorable market conditions or company-specific developments. Similarly, the one-month forecast of 36.6746, with a return of 1.87%, reinforces this bullish outlook. The alignment of both forecasts indicates directional consistency, suggesting a strengthening trend rather than mere volatility. The anticipated movements appear gradual, reflecting a stable upward trajectory rather than aggressive fluctuations. Overall, the analysis points to a bullish sentiment as DPNB navigates its growth potential in the current market environment."
+    },
+    {
+        "saved_at": "2026-05-15 11:02:22",
+        "company": "DPNB",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 36.0,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 36.6862,
+            "change": 0.6862,
+            "return_pct": 1.9062,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 36.6746,
+            "change": 0.6746,
+            "return_pct": 1.8738,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a short-term upward momentum for DPNB, with a projected price of 36.6862 in one week, reflecting a 1.91% return. This suggests a positive sentiment among investors, likely driven by favorable market conditions or company-specific developments. Similarly, the one-month forecast of 36.6746, with a return of 1.87%, reinforces this bullish outlook. The alignment of both forecasts indicates directional consistency, suggesting a strengthening trend rather than mere volatility. The anticipated movements appear gradual, reflecting a stable upward trajectory rather than aggressive fluctuations. Overall, the analysis points to a bullish sentiment as DPNB navigates its growth potential in the current market environment."
+    },
+    {
+        "saved_at": "2026-05-15 11:02:45",
+        "company": "BCCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 70.97,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 67.4988,
+            "change": -3.4712,
+            "return_pct": -4.8911,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 67.4531,
+            "change": -3.5169,
+            "return_pct": -4.9555,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "BCCL's TiDE model indicates a bearish outlook in both the short and medium term, with forecasts predicting a price decline to approximately 67.50 over the next month. The projected returns of -4.89% and -4.96% respectively suggest a consistent downward momentum, reflecting weak market sentiment. The alignment of both forecasts reinforces directional consistency, indicating a sustained bearish trend rather than a temporary fluctuation. The anticipated movement appears gradual rather than aggressive, suggesting that the market may be consolidating at lower levels as it absorbs negative sentiment. Overall, the stock's trajectory signals vulnerability, warranting caution for investors considering short-term positions."
+    },
+    {
+        "saved_at": "2026-05-15 11:18:58",
+        "company": "BCCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 70.97,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 67.4988,
+            "change": -3.4712,
+            "return_pct": -4.8911,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 67.4531,
+            "change": -3.5169,
+            "return_pct": -4.9555,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "BCCL's TiDE model indicates a bearish outlook in both the short and medium term, with forecasts predicting a price decline to approximately 67.50 over the next month. The projected returns of -4.89% and -4.96% respectively suggest a consistent downward momentum, reflecting weak market sentiment. The alignment of both forecasts reinforces directional consistency, indicating a sustained bearish trend rather than a temporary fluctuation. The anticipated movement appears gradual rather than aggressive, suggesting that the market may be consolidating at lower levels as it absorbs negative sentiment. Overall, the stock's trajectory signals vulnerability, warranting caution for investors considering short-term positions."
+    },
+    {
+        "saved_at": "2026-05-15 11:34:52",
+        "company": "BCCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 70.97,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 67.4988,
+            "change": -3.4712,
+            "return_pct": -4.8911,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 67.4531,
+            "change": -3.5169,
+            "return_pct": -4.9555,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "BCCL's TiDE model indicates a bearish outlook in both the short and medium term, with forecasts predicting a price decline to approximately 67.50 over the next month. The projected returns of -4.89% and -4.96% respectively suggest a consistent downward momentum, reflecting weak market sentiment. The alignment of both forecasts reinforces directional consistency, indicating a sustained bearish trend rather than a temporary fluctuation. The anticipated movement appears gradual rather than aggressive, suggesting that the market may be consolidating at lower levels as it absorbs negative sentiment. Overall, the stock's trajectory signals vulnerability, warranting caution for investors considering short-term positions."
+    },
+    {
+        "saved_at": "2026-05-15 11:34:53",
+        "company": "BCCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 70.97,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 67.4988,
+            "change": -3.4712,
+            "return_pct": -4.8911,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 67.4531,
+            "change": -3.5169,
+            "return_pct": -4.9555,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "BCCL's TiDE model indicates a bearish outlook in both the short and medium term, with forecasts predicting a price decline to approximately 67.50 over the next month. The projected returns of -4.89% and -4.96% respectively suggest a consistent downward momentum, reflecting weak market sentiment. The alignment of both forecasts reinforces directional consistency, indicating a sustained bearish trend rather than a temporary fluctuation. The anticipated movement appears gradual rather than aggressive, suggesting that the market may be consolidating at lower levels as it absorbs negative sentiment. Overall, the stock's trajectory signals vulnerability, warranting caution for investors considering short-term positions."
+    },
+    {
+        "saved_at": "2026-05-15 12:45:57",
+        "company": "BTCL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 510.0,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 504.6435,
+            "change": -5.3565,
+            "return_pct": -1.0503,
+            "direction": "DOWN"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 503.9587,
+            "change": -6.0413,
+            "return_pct": -1.1846,
+            "direction": "DOWN"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a bearish short-term momentum for BTCL, with a projected decline of 1.05% over the next week, followed by a slightly steeper drop of 1.18% in the upcoming month. This consistent downward trajectory suggests a weakening sentiment among investors, as both forecasts align directionally, reinforcing the bearish outlook. The movement appears gradual rather than aggressive, indicating a potential consolidation phase rather than sharp volatility. Given the current close of 510.0, the forecasts signal a lack of immediate bullish catalysts, suggesting that investors should remain cautious as the stock may continue to face downward pressure in the near term."
+    },
+    {
+        "saved_at": "2026-05-15 12:46:39",
+        "company": "BNBL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 28.99,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 29.0286,
+            "change": 0.0386,
+            "return_pct": 0.1333,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 29.0178,
+            "change": 0.0278,
+            "return_pct": 0.0958,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a modest upward momentum for BNBL in both the short and medium term. The one-week forecast suggests a slight increase, with a projected price of 29.0286, reflecting a change of 0.0386 and a return of 0.1333%. Similarly, the one-month outlook aligns closely, predicting a price of 29.0178, with a change of 0.0278 and a return of 0.0958%. This consistent directional alignment suggests a stable bullish trend, albeit with gradual movement rather than aggressive shifts. Overall, the forecasts imply a strengthening sentiment, as both short-term and medium-term indicators point towards continued upward pressure in BNBL's stock price."
+    },
+    {
+        "saved_at": "2026-05-15 12:49:48",
+        "company": "BBPL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 14.5,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 18.6256,
+            "change": 4.1256,
+            "return_pct": 28.4525,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 18.636,
+            "change": 4.136,
+            "return_pct": 28.5241,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "BBPL exhibits a robust short-term momentum, with a one-week forecast indicating a price increase to 18.6256, reflecting a substantial return of 28.45%. This bullish sentiment is echoed in the one-month forecast, which anticipates a similar rise to 18.636, reinforcing the upward trajectory. The alignment of both forecasts suggests strong directional consistency, indicating a clear bullish trend. The movement appears aggressive, signaling investor confidence and potential for further appreciation. Overall, BBPL is positioned favorably in the market, with momentum strengthening rather than consolidating, as evidenced by the consistent upward projections across both time frames. This outlook supports a positive investment thesis for the stock."
+    },
+    {
+        "saved_at": "2026-05-15 12:54:31",
+        "company": "BNBL",
+        "model_used": "TiDE",
+        "latest_date": "2026-05-06",
+        "latest_close": 28.99,
+        "one_week": {
+            "forecast_steps": 25,
+            "predicted_close": 29.0286,
+            "change": 0.0386,
+            "return_pct": 0.1333,
+            "direction": "UP"
+        },
+        "one_month": {
+            "forecast_steps": 50,
+            "predicted_close": 29.0178,
+            "change": 0.0278,
+            "return_pct": 0.0958,
+            "direction": "UP"
+        },
+        "rows_used": 7154,
+        "forecast_insight": "The TiDE forecasting model indicates a modest upward momentum for BNBL in both the short and medium term. The one-week forecast suggests a slight increase, with a projected price of 29.0286, reflecting a change of 0.0386 and a return of 0.1333%. Similarly, the one-month outlook aligns closely, predicting a price of 29.0178, with a change of 0.0278 and a return of 0.0958%. This consistent directional alignment suggests a stable bullish trend, albeit with gradual movement rather than aggressive shifts. Overall, the forecasts imply a strengthening sentiment, as both short-term and medium-term indicators point towards continued upward pressure in BNBL's stock price."
+    },
+    {
+        "saved_at": "2026-05-25 02:12:11",
+        "company": "STCB",
+        "current_price": 38.5,
+        "predicted_week_price": 37.82,
+        "predicted_month_price": 37.77,
+        "predicted_direction": "SAME",
+        "direction_confidence": 80.09,
+        "week_change_percent": -1.76,
+        "month_change_percent": -1.89,
+        "forecast_insight": "For STCB, currently priced at Nu. 38.5, the forecast suggests a slight decline in the short term. Over the next week, the price is predicted to drop to Nu. 37.82, reflecting a change of -1.76%. Looking at the month ahead, the price is expected to decrease further to Nu. 37.77, indicating a total change of -1.89%. The predicted direction remains the same, with an 80.09% confidence level in this outlook. This means that while a small decline is anticipated, the overall trend is expected to stabilize without significant fluctuations in the near term."
+    },
+    {
+        "saved_at": "2026-05-25 02:13:01",
+        "company": "STCB",
+        "current_price": 40.96,
+        "predicted_week_price": 39.09,
+        "predicted_month_price": 39.03,
+        "predicted_direction": "SAME",
+        "direction_confidence": 71.79,
+        "week_change_percent": -4.58,
+        "month_change_percent": -4.7,
+        "forecast_insight": "The current price of STCB is Nu. 40.96, but our forecast suggests a decline in the short term. We predict the price will drop to Nu. 39.09 in one week and further to Nu. 39.03 over the next month, indicating a 4.58% decrease in the week and a 4.7% decrease in the month. The predicted direction remains the same, with a confidence level of 71.79%, suggesting a strong likelihood of this trend. Retail investors should be cautious, as the outlook indicates a downward trajectory in the near term, reflecting potential challenges for the stock."
+    },
+    {
+        "saved_at": "2026-05-25 12:14:38",
+        "company": "BIL",
+        "current_price": 59.91,
+        "predicted_week_price": 58.97,
+        "predicted_month_price": 58.93,
+        "predicted_direction": "SAME",
+        "direction_confidence": 50.67,
+        "week_change_percent": -1.56,
+        "month_change_percent": -1.64,
+        "forecast_insight": "BIL is currently priced at Nu. 59.91, with a predicted price of Nu. 58.97 for the next week and Nu. 58.93 for the next month. This suggests a slight downward trend, with a 1-week change of -1.56% and a 1-month change of -1.64%. The forecast indicates that the price direction is expected to remain the same, with a confidence level of 50.67%. This means there is uncertainty about the price movement, and while a small decline is anticipated, it\u2019s essential to consider this forecast as one of many factors in your investment decision."
+    },
+    {
+        "saved_at": "2026-05-26 21:22:30",
+        "company": "BBPL",
+        "current_price": 14.0,
+        "predicted_week_price": 14.58,
+        "predicted_month_price": 14.58,
+        "predicted_direction": "SAME",
+        "direction_confidence": 80.98,
+        "week_change_percent": 4.16,
+        "month_change_percent": 4.14,
+        "forecast_insight": "BBPL is currently priced at Nu. 14.0, with a predicted price of Nu. 14.58 over the next week and month, indicating a potential increase of approximately 4.16% in the short term and 4.14% over the month. The forecast suggests that the price direction will remain the same, with a confidence level of 80.98%. This means that while there is a strong indication of stability and slight growth, investors should be aware that market conditions can change. It's important to consider these forecasts as part of a broader investment strategy, as they do not guarantee future performance."
+    },
+    {
+        "saved_at": "2026-05-27 00:19:52",
+        "company": "BBPL",
+        "current_price": 14.0,
+        "predicted_week_price": 14.58,
+        "predicted_month_price": 14.58,
+        "predicted_direction": "UP",
+        "direction_confidence": 80.98,
+        "week_change_percent": 4.16,
+        "month_change_percent": 4.14,
+        "forecast_insight": "BBPL's current price is Nu. 14.0, with a predicted price of Nu. 14.58 in one week and one month, indicating an upward trend. The forecast suggests a 4.16% increase over the next week and a 4.14% rise over the month, reflecting strong growth potential. With a confidence level of 80.98%, this prediction indicates a high likelihood of the stock moving in the anticipated direction. For retail investors, this short-term outlook suggests a favorable opportunity to consider BBPL, although market conditions can change, and there are no guarantees in investing. Always conduct further research before making investment decisions."
+    },
+    {
+        "saved_at": "2026-05-27 15:01:49",
+        "company": "BBPL",
+        "current_price": 14.0,
+        "predicted_week_price": 13.98,
+        "predicted_month_price": 13.97,
+        "predicted_direction": "SAME",
+        "direction_confidence": 81.44,
+        "week_change_percent": -0.17,
+        "month_change_percent": -0.18,
+        "forecast_insight": "BBPL's current price is Nu. 14.0, with a predicted price of Nu. 13.98 for the next week and Nu. 13.97 for the next month. This indicates a slight decline of 0.17% over the week and 0.18% over the month, suggesting that the stock is expected to remain relatively stable, with a forecasted direction of \"SAME.\" The confidence level in this prediction stands at 81.44%, indicating a strong belief in this outcome. For retail investors, this means that while there may be minor fluctuations, significant changes in BBPL's stock price are not anticipated in the short term or over the coming month."
+    },
+    {
+        "saved_at": "2026-05-27 15:05:17",
+        "company": "BBPL",
+        "current_price": 14.0,
+        "predicted_week_price": 13.98,
+        "predicted_month_price": 13.97,
+        "predicted_direction": "SAME",
+        "direction_confidence": 81.44,
+        "week_change_percent": -0.17,
+        "month_change_percent": -0.18,
+        "forecast_insight": "BBPL's current price is Nu. 14.0, with a predicted price of Nu. 13.98 for the next week and Nu. 13.97 for the next month. This indicates a slight decline of 0.17% over the week and 0.18% over the month, suggesting that the stock is expected to remain relatively stable, with a forecasted direction of \"SAME.\" The confidence level in this prediction stands at 81.44%, indicating a strong belief in this outcome. For retail investors, this means that while there may be minor fluctuations, significant changes in BBPL's stock price are not anticipated in the short term or over the coming month."
+    },
+    {
+        "saved_at": "2026-05-27 15:14:58",
+        "company": "BBPL",
+        "current_price": 14.0,
+        "predicted_week_price": 13.98,
+        "predicted_month_price": 13.97,
+        "predicted_direction": "SAME",
+        "direction_confidence": 81.44,
+        "week_change_percent": -0.17,
+        "month_change_percent": -0.18,
+        "forecast_insight": "BBPL's current price is Nu. 14.0, with a predicted price of Nu. 13.98 for the next week and Nu. 13.97 for the next month. This indicates a slight decline of 0.17% over the week and 0.18% over the month, suggesting that the stock is expected to remain relatively stable, with a forecasted direction of \"SAME.\" The confidence level in this prediction stands at 81.44%, indicating a strong belief in this outcome. For retail investors, this means that while there may be minor fluctuations, significant changes in BBPL's stock price are not anticipated in the short term or over the coming month."
+    },
+    {
+        "saved_at": "2026-05-27 15:31:34",
+        "company": "BBPL",
+        "current_price": 14.0,
+        "predicted_week_price": 13.98,
+        "predicted_month_price": 13.97,
+        "predicted_direction": "SAME",
+        "direction_confidence": 81.44,
+        "week_change_percent": -0.17,
+        "month_change_percent": -0.18,
+        "forecast_insight": "BBPL's current price is Nu. 14.0, with a predicted price of Nu. 13.98 for the next week and Nu. 13.97 for the next month. This indicates a slight decline of 0.17% over the week and 0.18% over the month, suggesting that the stock is expected to remain relatively stable, with a forecasted direction of \"SAME.\" The confidence level in this prediction stands at 81.44%, indicating a strong belief in this outcome. For retail investors, this means that while there may be minor fluctuations, significant changes in BBPL's stock price are not anticipated in the short term or over the coming month."
+    },
+    {
+        "saved_at": "2026-05-27 15:32:07",
+        "company": "BBPL",
+        "current_price": 14.0,
+        "predicted_week_price": 13.98,
+        "predicted_month_price": 13.97,
+        "predicted_direction": "SAME",
+        "direction_confidence": 81.44,
+        "week_change_percent": -0.17,
+        "month_change_percent": -0.18,
+        "forecast_insight": "BBPL's current price is Nu. 14.0, with a predicted price of Nu. 13.98 for the next week and Nu. 13.97 for the next month. This indicates a slight decline of 0.17% over the week and 0.18% over the month, suggesting that the stock is expected to remain relatively stable, with a forecasted direction of \"SAME.\" The confidence level in this prediction stands at 81.44%, indicating a strong belief in this outcome. For retail investors, this means that while there may be minor fluctuations, significant changes in BBPL's stock price are not anticipated in the short term or over the coming month."
+    },
+    {
+        "saved_at": "2026-05-27 15:43:19",
+        "company": "BBPL",
+        "current_price": 14.0,
+        "predicted_week_price": 13.98,
+        "predicted_month_price": 13.97,
+        "predicted_direction": "SAME",
+        "direction_confidence": 81.44,
+        "week_change_percent": -0.17,
+        "month_change_percent": -0.18,
+        "forecast_insight": "BBPL's current price is Nu. 14.0, with a predicted price of Nu. 13.98 for the next week and Nu. 13.97 for the next month. This indicates a slight decline of 0.17% over the week and 0.18% over the month, suggesting that the stock is expected to remain relatively stable, with a forecasted direction of \"SAME.\" The confidence level in this prediction stands at 81.44%, indicating a strong belief in this outcome. For retail investors, this means that while there may be minor fluctuations, significant changes in BBPL's stock price are not anticipated in the short term or over the coming month."
+    },
+    {
+        "saved_at": "2026-05-27 15:43:43",
+        "company": "BFAL",
+        "current_price": 104.84,
+        "predicted_week_price": 103.46,
+        "predicted_month_price": 103.28,
+        "predicted_direction": "DOWN",
+        "direction_confidence": 89.16,
+        "week_change_percent": -1.31,
+        "month_change_percent": -1.49,
+        "forecast_insight": "BFAL is currently priced at Nu. 104.84, but our analysis indicates a downward trend in the near future. We predict the price will decrease to Nu. 103.46 over the next week, reflecting a 1.31% decline. Looking further ahead, the one-month forecast suggests a slight drop to Nu. 103.28, which corresponds to a 1.49% decrease. The confidence in this downward direction is notably high at 89.16%, indicating strong conviction in the forecast. Retail investors should be cautious, as both the short-term and monthly outlooks suggest continued price weakness for BFAL."
+    },
+    {
+        "saved_at": "2026-05-27 15:57:05",
+        "company": "BIL",
+        "current_price": 59.91,
+        "predicted_week_price": 58.97,
+        "predicted_month_price": 58.93,
+        "predicted_direction": "DOWN",
+        "direction_confidence": 50.67,
+        "week_change_percent": -1.56,
+        "month_change_percent": -1.64,
+        "forecast_insight": "BIL is currently priced at Nu. 59.91, but forecasts suggest a downward trend. In the short term, the predicted price for the next week is Nu. 58.97, reflecting a decline of approximately 1.56%. Over the next month, the expected price is Nu. 58.93, indicating a total decrease of about 1.64%. The confidence in this downward direction is moderate at 50.67%, meaning that while there is a slight inclination towards a price drop, there remains uncertainty. Retail investors should consider this outlook when making decisions, as the market may experience fluctuations."
+    },
+    {
+        "saved_at": "2026-05-27 15:57:51",
+        "company": "BIL",
+        "current_price": 59.91,
+        "predicted_week_price": 58.97,
+        "predicted_month_price": 58.93,
+        "predicted_direction": "DOWN",
+        "direction_confidence": 50.67,
+        "week_change_percent": -1.56,
+        "month_change_percent": -1.64,
+        "forecast_insight": "BIL is currently priced at Nu. 59.91, but forecasts suggest a downward trend. In the short term, the predicted price for the next week is Nu. 58.97, reflecting a decline of approximately 1.56%. Over the next month, the expected price is Nu. 58.93, indicating a total decrease of about 1.64%. The confidence in this downward direction is moderate at 50.67%, meaning that while there is a slight inclination towards a price drop, there remains uncertainty. Retail investors should consider this outlook when making decisions, as the market may experience fluctuations."
+    },
+    {
+        "saved_at": "2026-05-27 15:57:57",
+        "company": "BIL",
+        "current_price": 59.91,
+        "predicted_week_price": 58.97,
+        "predicted_month_price": 58.93,
+        "predicted_direction": "DOWN",
+        "direction_confidence": 50.67,
+        "week_change_percent": -1.56,
+        "month_change_percent": -1.64,
+        "forecast_insight": "BIL is currently priced at Nu. 59.91, but forecasts suggest a downward trend. In the short term, the predicted price for the next week is Nu. 58.97, reflecting a decline of approximately 1.56%. Over the next month, the expected price is Nu. 58.93, indicating a total decrease of about 1.64%. The confidence in this downward direction is moderate at 50.67%, meaning that while there is a slight inclination towards a price drop, there remains uncertainty. Retail investors should consider this outlook when making decisions, as the market may experience fluctuations."
+    },
+    {
+        "saved_at": "2026-05-27 15:58:19",
+        "company": "BIL",
+        "current_price": 59.91,
+        "predicted_week_price": 58.97,
+        "predicted_month_price": 58.93,
+        "predicted_direction": "DOWN",
+        "direction_confidence": 50.67,
+        "week_change_percent": -1.56,
+        "month_change_percent": -1.64,
+        "forecast_insight": "BIL is currently priced at Nu. 59.91, but forecasts suggest a downward trend. In the short term, the predicted price for the next week is Nu. 58.97, reflecting a decline of approximately 1.56%. Over the next month, the expected price is Nu. 58.93, indicating a total decrease of about 1.64%. The confidence in this downward direction is moderate at 50.67%, meaning that while there is a slight inclination towards a price drop, there remains uncertainty. Retail investors should consider this outlook when making decisions, as the market may experience fluctuations."
+    },
+    {
+        "saved_at": "2026-05-27 15:58:20",
+        "company": "BIL",
+        "current_price": 59.91,
+        "predicted_week_price": 58.97,
+        "predicted_month_price": 58.93,
+        "predicted_direction": "DOWN",
+        "direction_confidence": 50.67,
+        "week_change_percent": -1.56,
+        "month_change_percent": -1.64,
+        "forecast_insight": "BIL is currently priced at Nu. 59.91, but forecasts suggest a downward trend. In the short term, the predicted price for the next week is Nu. 58.97, reflecting a decline of approximately 1.56%. Over the next month, the expected price is Nu. 58.93, indicating a total decrease of about 1.64%. The confidence in this downward direction is moderate at 50.67%, meaning that while there is a slight inclination towards a price drop, there remains uncertainty. Retail investors should consider this outlook when making decisions, as the market may experience fluctuations."
+    },
+    {
+        "saved_at": "2026-05-27 15:58:20",
+        "company": "BIL",
+        "current_price": 59.91,
+        "predicted_week_price": 58.97,
+        "predicted_month_price": 58.93,
+        "predicted_direction": "DOWN",
+        "direction_confidence": 50.67,
+        "week_change_percent": -1.56,
+        "month_change_percent": -1.64,
+        "forecast_insight": "BIL is currently priced at Nu. 59.91, but forecasts suggest a downward trend. In the short term, the predicted price for the next week is Nu. 58.97, reflecting a decline of approximately 1.56%. Over the next month, the expected price is Nu. 58.93, indicating a total decrease of about 1.64%. The confidence in this downward direction is moderate at 50.67%, meaning that while there is a slight inclination towards a price drop, there remains uncertainty. Retail investors should consider this outlook when making decisions, as the market may experience fluctuations."
+    }
+]

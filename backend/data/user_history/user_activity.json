@@ -1,0 +1,16 @@
+[
+    {
+        "user_id": "demo_user",
+        "company": "BNBL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-20 23:25:04"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPNB",
+        "action_type": "prediction_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-20 23:25:04"
+    }
+]
