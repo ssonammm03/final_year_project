@@ -1,51 +1,146 @@
+/* ==========================================================================
+   1. GLOBAL RESETS & BASE THEME
+   ========================================================================== */
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: Inter, "Segoe UI", sans-serif;
-  background: linear-gradient(
-    135deg,
-    #f7f9fc 0%,
-    #eef3fb 100%
-  );
+  background:
+    radial-gradient(circle at top left,
+    rgba(37,99,235,0.08),
+    transparent 30%),
+    linear-gradient(
+      135deg,
+      #f8fafc 0%,
+      #eef2f7 100%
+    );
+}
+
+.green {
+  color: #059669;
+  font-weight: 950;
+}
+
+.red {
+  color: #dc2626;
+  font-weight: 950;
+}
+
+.loading {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-size: 26px;
+  font-weight: 950;
+}
+
+/* ==========================================================================
+   2. REUSABLE GLASS COMPONENTS & MODALS
+   ========================================================================== */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.04), 0 1px 3px rgba(15, 23, 42, 0.02);
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.3);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.ai-modal {
+  background: white;
+  width: 420px;
+  max-width: 90%;
+  padding: 26px;
+  border-radius: 24px;
+  box-shadow: 0 30px 60px rgba(15, 23, 42, 0.15);
+  position: relative;
+  border: 1px solid #e2e8f0;
+}
+
+.modal-close {
+  position: absolute;
+  top: 14px;
+  right: 18px;
+  border: none;
+  background: transparent;
+  font-size: 26px;
+  cursor: pointer;
+  color: #64748b;
+  transition: color 0.2s;
+}
+
+.modal-close:hover {
   color: #0f172a;
 }
 
-/* =========================
-   MAIN APP
-========================= */
+.modal-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 20px 0;
+}
 
+.modal-stats div {
+  background: #f8fafc;
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid #f1f5f9;
+}
+
+.modal-stats span {
+  display: block;
+  font-size: 12px;
+  color: #64748b;
+  margin-bottom: 6px;
+}
+
+.modal-stats strong {
+  font-size: 18px;
+  color: #0f172a;
+}
+
+.ai-note {
+  background: #eff6ff;
+  padding: 14px;
+  border-radius: 16px;
+  color: #1e40af;
+  font-size: 14px;
+  border: 1px solid #bfdbfe;
+}
+
+/* ==========================================================================
+   3. LAYOUT APP CONTAINER & TOPBAR
+   ========================================================================== */
 .app-container {
   min-height: 100vh;
   padding: 28px;
 }
 
-/* =========================
-   TOPBAR
-========================= */
-
 .topbar {
   height: 92px;
-
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) auto auto;
   align-items: center;
-  justify-content: space-between;
-
+  column-gap: 28px;
   padding: 0 34px;
-
-  background: rgba(255,255,255,0.82);
-
-  border: 1px solid rgba(255,255,255,0.45);
-
-  backdrop-filter: blur(18px);
-
-  border-radius: 28px;
-
-  box-shadow:
-    0 18px 45px rgba(15,23,42,0.06);
-
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 24px;
+  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.04);
   margin-bottom: 28px;
 }
 
@@ -70,89 +165,55 @@ body {
   font-weight: 700;
 }
 
-.topnav {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-
-.topnav button {
-  border: none;
-
-  background: transparent;
-
-  padding: 12px 22px;
-
-  border-radius: 14px;
-
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  cursor: pointer;
-
-  font-size: 14px;
-  font-weight: 850;
-
-  color: #475569;
-
-  transition: 0.25s ease;
-}
-
-.topnav button:hover {
-  background: #eff6ff;
-  color: #1d4ed8;
-}
-
-.active-nav {
-  background: linear-gradient(
-    135deg,
-    #1d4ed8,
-    #0f766e
-  ) !important;
-
-  color: white !important;
-
-  box-shadow:
-    0 10px 24px rgba(37,99,235,0.22);
-}
-
 .rseb-right-logo img {
   width: 68px;
   height: 68px;
   object-fit: contain;
 }
 
-/* =========================
-   GLASS CARD
-========================= */
-
-.glass-card {
-  background: rgba(255,255,255,0.78);
-
-  backdrop-filter: blur(18px);
-
-  border: 1px solid rgba(255,255,255,0.45);
-
-  border-radius: 30px;
-
-  box-shadow:
-    0 22px 55px rgba(15,23,42,0.08);
+.topnav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
 }
 
-/* =========================
-   HOME LAYOUT
-========================= */
+.topnav button {
+  border: none;
+  background: transparent;
+  padding: 12px 22px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 850;
+  color: #475569;
+  transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.topnav button:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+.active-nav {
+  background: #0f172a !important;
+  color: white !important;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.15);
+}
+
+/* ==========================================================================
+   4. HOME LAYOUT PAGE COMPONENTS
+   ========================================================================== */
+/* --- Optimized Balanced Layout --- */
 .home-layout {
   display: grid;
-
-  grid-template-columns:
-    320px
-    1fr
-    300px;
-
+  /* Increased side panels significantly, letting the center scale dynamically but tightly */
+  grid-template-columns: 410px 1fr 390px;
   gap: 24px;
+  align-items: start;
 }
 
 .left-panel,
@@ -160,10 +221,6 @@ body {
 .right-panel {
   padding: 24px;
 }
-
-/* =========================
-   PANEL TITLES
-========================= */
 
 .panel-header {
   margin-bottom: 22px;
@@ -174,99 +231,78 @@ body {
   font-size: 24px;
   font-weight: 950;
   color: #0f172a;
+  letter-spacing: -0.5px;
 }
 
-/* =========================
-   COMPANY LIST
-========================= */
-
+/* --- Company Directory Grid Subcomponent --- */
 .company-list {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
 }
 
 .company-item {
   border: 1px solid #e2e8f0;
-
   background: white;
-
   border-radius: 20px;
-
-  padding: 16px;
-
+  padding: 12px;
+  min-height: 92px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-between;
-
   cursor: pointer;
-
-  transition: 0.25s ease;
+  transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .company-item:hover {
   transform: translateY(-2px);
-
-  border-color: #2563eb;
+  border-color: #0f172a;
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.04);
 }
 
 .selected-company {
-  background: linear-gradient(
-    135deg,
-    #eff6ff,
-    #ffffff
-  );
-
-  border-color: #2563eb;
+  background: #f8fafc;
+  border-color: #0f172a;
+  box-shadow: inset 0 0 0 1px #0f172a;
 }
 
 .company-left {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
 }
 
 .company-logo {
-  width: 54px;
-  height: 54px;
+  width: 38px;
+  height: 38px;
   object-fit: contain;
-
   background: white;
-
-  border-radius: 14px;
-
-  padding: 6px;
-
-  border: 1px solid #dbeafe;
+  border-radius: 12px;
+  padding: 4px;
+  border: 1px solid #e2e8f0;
 }
 
 .company-item h4 {
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900;
+  color: #0f172a;
 }
 
 .company-item p {
-  margin: 4px 0 0;
+  margin: 2px 0 0;
   color: #64748b;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
 }
 
-.green {
-  color: #059669;
-  font-weight: 950;
+.company-item strong {
+  align-self: flex-end;
+  font-size: 13px;
 }
 
-.red {
-  color: #dc2626;
-  font-weight: 950;
-}
-
-/* =========================
-   CENTER PANEL
-========================= */
-
+/* --- Central Panel Data View Components --- */
 .overview-top {
   display: flex;
   justify-content: space-between;
@@ -275,23 +311,15 @@ body {
 
 .overview-label {
   display: inline-block;
-
   padding: 8px 14px;
-
   border-radius: 999px;
-
-  background: linear-gradient(
-    135deg,
-    #1d4ed8,
-    #0f766e
-  );
-
+  background: #0f172a;
   color: white;
-
   font-size: 11px;
   font-weight: 900;
-
   margin-bottom: 14px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .overview-top h1 {
@@ -303,11 +331,8 @@ body {
 
 .overview-top p {
   max-width: 520px;
-
   line-height: 1.7;
-
   color: #64748b;
-
   font-weight: 600;
 }
 
@@ -317,842 +342,72 @@ body {
   object-fit: contain;
 }
 
-/* =========================
-   METRICS
-========================= */
+.company-info-clean {
+  margin-top: 12px;
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+  color: #334155;
+}
 
+.company-info-clean p {
+  margin: 0;
+}
+
+.company-info-clean span {
+  font-weight: 800;
+  color: #64748b;
+}
+
+.company-info-clean a {
+  color: #2563eb;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.company-info-clean a:hover {
+  text-decoration: underline;
+}
+
+/* --- Metrics Grid --- */
 .metrics-row {
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
-
   gap: 18px;
-
   margin-top: 30px;
 }
 
 .metric-box {
   background: white;
-
   border-radius: 24px;
-
   padding: 24px;
-
   border: 1px solid #e2e8f0;
 }
 
 .metric-box span {
   display: block;
-
   color: #64748b;
-
   font-size: 12px;
   font-weight: 800;
-
   margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .metric-box h2 {
   margin: 0;
-
   font-size: 28px;
-  font-weight: 950;
-
-  color: #0f172a;
-}
-
-/* =========================
-   PERIOD TABS
-========================= */
-
-.period-tabs {
-  margin-top: 26px;
-
-  display: flex;
-  gap: 10px;
-}
-
-.period-tabs button {
-  border: 1px solid #dbeafe;
-
-  background: white;
-
-  padding: 11px 18px;
-
-  border-radius: 14px;
-
-  font-weight: 850;
-
-  cursor: pointer;
-}
-
-.active-period {
-  background: linear-gradient(
-    135deg,
-    #1d4ed8,
-    #0f766e
-  ) !important;
-
-  color: white;
-
-  border: none;
-}
-
-/* =========================
-   CHART SECTION
-========================= */
-
-.chart-card {
-  margin-top: 28px;
-
-  background: white;
-
-  border-radius: 28px;
-
-  padding: 24px;
-
-  border: 1px solid #e2e8f0;
-}
-
-.chart-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  margin-bottom: 22px;
-}
-
-.chart-header h3 {
-  margin: 0;
-  font-size: 24px;
-  font-weight: 950;
-}
-
-.chart-header p {
-  margin: 4px 0 0;
-  color: #64748b;
-  font-weight: 600;
-}
-
-.chart-header select {
-  padding: 12px 16px;
-
-  border-radius: 14px;
-
-  border: 1px solid #dbeafe;
-
-  background: #f8fafc;
-
-  font-weight: 800;
-}
-
-/* =========================
-   RIGHT PANEL
-========================= */
-
-.suggestion-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.suggestion-card {
-  background: #ffffff;
-  border-radius: 22px;
-  padding: 18px;
-  border: 1px solid #e2e8f0;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  min-height: 96px;
-}
-
-.suggestion-card img {
-  width: 58px;
-  height: 58px;
-  object-fit: contain;
-  border-radius: 16px;
-  background: #ffffff;
-  border: 1px solid #dbeafe;
-  padding: 6px;
-}
-
-.suggestion-info h4 {
-  margin: 0;
-  font-size: 17px;
   font-weight: 950;
   color: #0f172a;
 }
 
-.action-text {
-  margin: 6px 0 0;
-  font-size: 13px;
-  font-weight: 900;
-}
-
-.action-text.buy {
-  color: #059669;
-}
-
-.action-text.sell {
-  color: #dc2626;
-}
-
-.action-text.hold {
-  color: #ca8a04;
-}
-
-.suggestion-info small {
-  display: block;
-  margin-top: 6px;
-  color: #64748b;
-  font-weight: 700;
-}
-
-.empty-suggestion {
-  background: white;
-  border: 1px dashed #cbd5e1;
-  border-radius: 22px;
-  padding: 22px;
-  text-align: center;
-}
-
-.empty-suggestion img {
-  width: 64px;
-  height: 64px;
-  object-fit: contain;
-  margin-bottom: 10px;
-}
-
-.empty-suggestion p {
-  margin: 0;
-  color: #64748b;
-  font-weight: 800;
-}
-
-/* =========================
-   FORECAST PAGE
-========================= */
-
-.forecast-layout {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.forecast-hero {
-  padding: 34px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.forecast-hero h1 {
-  margin: 10px 0 10px;
-
-  font-size: 52px;
-  font-weight: 950;
-
-  letter-spacing: -1.5px;
-}
-
-.forecast-hero p {
-  max-width: 700px;
-
-  line-height: 1.8;
-
-  color: #64748b;
-
-  font-weight: 600;
-}
-
-.run-btn {
-  border: none;
-
-  background: linear-gradient(
-    135deg,
-    #1d4ed8,
-    #0f766e
-  );
-
-  color: white;
-
-  padding: 18px 28px;
-
-  border-radius: 18px;
-
-  font-size: 15px;
-  font-weight: 900;
-
-  cursor: pointer;
-
-  box-shadow:
-    0 16px 32px rgba(37,99,235,0.22);
-}
-
-.forecast-grid {
-  display: grid;
-
-  grid-template-columns: repeat(4, 1fr);
-
-  gap: 20px;
-}
-
-.forecast-card {
-  background: white;
-
-  border-radius: 26px;
-
-  padding: 24px;
-
-  border: 1px solid #e2e8f0;
-}
-
-.forecast-card span {
-  display: block;
-
-  color: #64748b;
-
-  font-size: 12px;
-  font-weight: 800;
-
-  margin-bottom: 10px;
-}
-
-.forecast-card h2 {
-  margin: 0;
-
-  font-size: 28px;
-  font-weight: 950;
-}
-
-.forecast-card p {
-  margin-top: 10px;
-
-  font-weight: 800;
-
-  color: #2563eb;
-}
-
-/* =========================
-   TABLE
-========================= */
-
-.table-card {
-  padding: 24px;
-}
-
-.table-wrap {
-  overflow-x: auto;
-}
-
-table {
-  width: 100%;
-
-  border-collapse: collapse;
-}
-
-th {
-  background: #eff6ff;
-
-  color: #1d4ed8;
-
-  text-align: left;
-
-  padding: 14px;
-
-  font-size: 13px;
-  font-weight: 900;
-}
-
-td {
-  padding: 14px;
-
-  border-bottom: 1px solid #e2e8f0;
-
-  font-size: 14px;
-  font-weight: 600;
-}
-
-/* =========================
-   ABOUT PAGE
-========================= */
-
-.about-layout {
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
-}
-
-.about-hero {
-  padding: 40px;
-}
-
-.about-hero h1 {
-  margin: 12px 0;
-
-  font-size: 48px;
-  font-weight: 950;
-
-  line-height: 1.2;
-}
-
-.about-hero p {
-  max-width: 900px;
-
-  line-height: 1.8;
-
-  color: #64748b;
-
-  font-weight: 600;
-}
-
-.about-grid {
-  display: grid;
-
-  grid-template-columns: repeat(2, 1fr);
-
-  gap: 24px;
-}
-
-.about-box {
-  padding: 30px;
-}
-
-.about-box h3 {
-  margin-top: 0;
-
-  font-size: 24px;
-  font-weight: 950;
-}
-
-.about-box p {
-  line-height: 1.8;
-
-  color: #64748b;
-
-  font-weight: 600;
-}
-
-/* =========================
-   CHATBOT
-========================= */
-
-.chatbot-button {
-  position: fixed;
-
-  right: 30px;
-  bottom: 30px;
-
-  width: 76px;
-  height: 76px;
-
-  border-radius: 50%;
-
-  border: none;
-
-  background: linear-gradient(
-    135deg,
-    #1d4ed8,
-    #0f766e
-  );
-
-  color: white;
-
-  font-size: 28px;
-
-  display: grid;
-  place-items: center;
-
-  cursor: pointer;
-
-  box-shadow:
-    0 20px 42px rgba(37,99,235,0.3);
-
-  z-index: 999;
-}
-
-.chat-window {
-  position: fixed;
-
-  right: 30px;
-  bottom: 120px;
-
-  width: 390px;
-  height: 560px;
-
-  background: white;
-
-  border-radius: 30px;
-
-  overflow: hidden;
-
-  box-shadow:
-    0 30px 70px rgba(15,23,42,0.18);
-
-  display: flex;
-  flex-direction: column;
-
-  z-index: 999;
-}
-
-.chat-header {
-  height: 74px;
-
-  background: linear-gradient(
-    135deg,
-    #1d4ed8,
-    #0f766e
-  );
-
-  color: white;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  padding: 0 24px;
-}
-
-.chat-header h3 {
-  margin: 0;
-
-  font-size: 18px;
-  font-weight: 900;
-}
-
-.chat-header button {
-  border: none;
-  background: transparent;
-  color: white;
-
-  font-size: 28px;
-
-  cursor: pointer;
-}
-
-.chat-body {
-  flex: 1;
-
-  overflow-y: auto;
-
-  padding: 22px;
-
-  background: #f8fafc;
-
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.chat-message {
-  max-width: 80%;
-
-  padding: 14px 16px;
-
-  border-radius: 18px;
-
-  font-size: 14px;
-
-  line-height: 1.7;
-}
-
-.chat-message.user {
-  align-self: flex-end;
-
-  background: #2563eb;
-
-  color: white;
-}
-
-.chat-message.assistant {
-  align-self: flex-start;
-
-  background: white;
-
-  border: 1px solid #e2e8f0;
-}
-
-.chat-input {
-  height: 80px;
-
-  border-top: 1px solid #e2e8f0;
-
-  display: flex;
-  align-items: center;
-  gap: 12px;
-
-  padding: 16px;
-}
-
-.chat-input input {
-  flex: 1;
-
-  border: 1px solid #dbeafe;
-
-  border-radius: 16px;
-
-  padding: 14px;
-
-  outline: none;
-
-  font-size: 14px;
-}
-
-.chat-input button {
-  width: 52px;
-  height: 52px;
-
-  border-radius: 16px;
-
-  border: none;
-
-  background: linear-gradient(
-    135deg,
-    #1d4ed8,
-    #0f766e
-  );
-
-  color: white;
-
-  cursor: pointer;
-}
-
-/* =========================
-   LOADING
-========================= */
-
-.loading {
-  min-height: 100vh;
-
-  display: grid;
-  place-items: center;
-
-  font-size: 26px;
-  font-weight: 950;
-}
-
-.suggestion-main {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.change-pill {
-  margin-left: auto;
-  padding: 5px 10px;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.positive-pill {
-  background: #dcfce7;
-  color: #15803d;
-}
-
-.negative-pill {
-  background: #fee2e2;
-  color: #b91c1c;
-}
-
-.suggestion-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.view-details-btn {
-  border: none;
-  background: #111827;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 11px;
-  cursor: pointer;
-}
-
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(15, 23, 42, 0.45);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-}
-
-.ai-modal {
-  background: white;
-  width: 420px;
-  max-width: 90%;
-  padding: 26px;
-  border-radius: 24px;
-  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.25);
-  position: relative;
-}
-
-.modal-close {
-  position: absolute;
-  top: 14px;
-  right: 18px;
-  border: none;
-  background: transparent;
-  font-size: 26px;
-  cursor: pointer;
-}
-
-.modal-stats {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
-  margin: 20px 0;
-}
-
-.modal-stats div {
-  background: #f8fafc;
-  padding: 14px;
-  border-radius: 16px;
-}
-
-.modal-stats span {
-  display: block;
-  font-size: 12px;
-  color: #64748b;
-  margin-bottom: 6px;
-}
-
-.modal-stats strong {
-  font-size: 18px;
-  color: #0f172a;
-}
-
-.ai-note {
-  background: #eef6ff;
-  padding: 14px;
-  border-radius: 16px;
-  color: #334155;
-  font-size: 14px;
-}
-
-.suggestion-card {
-  width: 100%;
-  padding: 14px;
-  border-radius: 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.suggestion-main {
-  display: grid;
-  grid-template-columns: 44px 1fr auto;
-  align-items: center;
-  gap: 10px;
-}
-
-.suggestion-main img {
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
-}
-
-.suggestion-info h4 {
-  margin: 0;
-  font-size: 13px;
-}
-
-.suggestion-info p {
-  margin: 2px 0;
-  font-size: 11px;
-}
-
-.suggestion-info small {
-  font-size: 11px;
-}
-
-.change-pill {
-  padding: 5px 9px;
-  border-radius: 999px;
-  font-size: 10px;
-  font-weight: 800;
-  white-space: nowrap;
-}
-
-.suggestion-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-}
-
-.suggestion-footer span {
-  font-size: 11px;
-  font-weight: 700;
-  color: #64748b;
-}
-
-.view-details-btn {
-  border: none;
-  background: #0f172a;
-  color: white;
-  padding: 6px 10px;
-  border-radius: 999px;
-  font-size: 10px;
-  font-weight: 700;
-  cursor: pointer;
-  white-space: nowrap;
-}
-
-.history-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.forecast-company-select {
-  margin-top: 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  max-width: 260px;
-}
-
-.forecast-company-select label {
-  font-size: 12px;
-  font-weight: 800;
-  color: #64748b;
-}
-
-.forecast-company-select select {
-  padding: 12px 14px;
-  border-radius: 14px;
-  border: 1px solid #dbeafe;
-  background: white;
-  font-weight: 800;
-  color: #0f172a;
-  outline: none;
-}
-
-.show-more-btn {
-  border: none;
-  background: transparent;
-  color: #2563eb;
-  font-weight: 800;
-  cursor: pointer;
-  padding: 0;
-  margin-top: 6px;
-}
-
+/* --- Extended Financial Analytics Rows --- */
 .stock-extra-info {
   margin-top: 24px;
   padding: 20px 22px;
   border-radius: 18px;
   background: #ffffff;
-  border: 1px solid #dbe3ef;
+  border: 1px solid #e2e8f0;
 }
 
 .info-grid {
@@ -1179,69 +434,540 @@ td {
   font-weight: 800;
 }
 
-@media (max-width: 900px) {
-  .info-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.company-info-clean {
-  margin-top: 12px;
-  display: grid;
-  gap: 6px;
-  font-size: 14px;
-  color: #334155;
-}
-
-.company-info-clean p {
-  margin: 0;
-}
-
-.company-info-clean span {
-  font-weight: 800;
-  color: #64748b;
-}
-
-.company-info-clean a {
-  color: #2563eb;
-  font-weight: 700;
-}
-
-.company-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-}
-
-.company-item {
-  padding: 12px;
-  min-height: 92px;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.company-left {
+/* --- Interactive Filtering & Chart System --- */
+.period-tabs {
+  margin-top: 26px;
   display: flex;
+  gap: 10px;
+}
+
+.period-tabs button {
+  border: 1px solid #e2e8f0;
+  background: white;
+  padding: 11px 18px;
+  border-radius: 14px;
+  font-weight: 850;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.period-tabs button:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.active-period {
+  background: #0f172a !important;
+  color: white !important;
+  border-color: #0f172a !important;
+}
+
+.chart-card {
+  margin-top: 28px;
+  background: white;
+  border-radius: 28px;
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+}
+
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.chart-header h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 950;
+}
+
+.chart-header p {
+  margin: 4px 0 0;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.chart-header select {
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  font-weight: 800;
+  outline: none;
+}
+
+/* --- Right Side Strategic Recommendations --- */
+.suggestion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.suggestion-card {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 14px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.suggestion-main {
+  display: grid;
+  grid-template-columns: 44px 1fr auto;
   align-items: center;
   gap: 10px;
 }
 
-.company-item strong {
-  align-self: flex-end;
-  font-size: 13px;
+.suggestion-main img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  padding: 4px;
 }
 
-.company-logo {
-  width: 38px;
-  height: 38px;
+.suggestion-info h4 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 950;
+  color: #0f172a;
+}
+
+.suggestion-info p {
+  margin: 2px 0;
+  font-size: 11px;
+}
+
+.suggestion-info small {
+  display: block;
+  font-size: 11px;
+  color: #64748b;
+  font-weight: 700;
+}
+
+.action-text {
+  margin: 4px 0 0;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.action-text.buy { color: #059669; }
+.action-text.sell { color: #dc2626; }
+.action-text.hold { color: #ca8a04; }
+
+.change-pill {
+  padding: 5px 9px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.positive-pill {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.negative-pill {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.suggestion-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.suggestion-footer span {
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748b;
+}
+
+.view-details-btn {
+  border: none;
+  background: #0f172a;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+
+.view-details-btn:hover {
+  opacity: 0.9;
+}
+
+.empty-suggestion {
+  background: white;
+  border: 1px dashed #cbd5e1;
+  border-radius: 22px;
+  padding: 22px;
+  text-align: center;
+}
+
+.empty-suggestion img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.empty-suggestion p {
+  margin: 0;
+  color: #64748b;
+  font-weight: 800;
+}
+
+.show-more-btn {
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  font-weight: 800;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 6px;
+}
+
+/* ==========================================================================
+   5. DEEP LEARNING FORECASTING INTERFACE
+   ========================================================================== */
+.forecast-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.forecast-hero {
+  padding: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forecast-hero h1 {
+  margin: 10px 0;
+  font-size: 52px;
+  font-weight: 950;
+  letter-spacing: -1.5px;
+}
+
+.forecast-hero p {
+  max-width: 700px;
+  line-height: 1.8;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.forecast-company-select {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 260px;
+}
+
+.forecast-company-select label {
+  font-size: 12px;
+  font-weight: 800;
+  color: #64748b;
+}
+
+.forecast-company-select select {
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  background: white;
+  font-weight: 800;
+  color: #0f172a;
+  outline: none;
+}
+
+.run-btn {
+  border: none;
+  background: #0f172a;
+  color: white;
+  padding: 18px 28px;
+  border-radius: 18px;
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.15);
+  transition: transform 0.2s, background 0.2s;
+}
+
+.run-btn:hover {
+  transform: translateY(-1px);
+  background: #1e293b;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.forecast-card {
+  background: white;
+  border-radius: 26px;
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+}
+
+.forecast-card span {
+  display: block;
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.forecast-card h2 {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 950;
+  line-height: 1.1;
+  color: #0f172a;
+}
+
+.forecast-card p {
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.forecast-positive {
+  color: #16a34a !important;
+}
+
+.forecast-negative {
+  color: #dc2626 !important;
+}
+
+.forecast-neutral {
+  color: #2563eb !important;
+}
+/* ==========================================================================
+   6. TABULAR SUMMARY CARDS
+   ========================================================================== */
+.table-card {
+  padding: 24px;
+  background: white;
+  border-radius: 28px;
+  border: 1px solid #e2e8f0;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #f8fafc;
+  color: #475569;
+  text-align: left;
+  padding: 14px;
+  font-size: 13px;
+  font-weight: 900;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+td {
+  padding: 14px;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+}
+
+/* ==========================================================================
+   7. PROJECT ABOUT SECTION
+   ========================================================================== */
+.about-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.about-hero {
+  padding: 40px;
+}
+
+.about-hero h1 {
+  margin: 12px 0;
+  font-size: 48px;
+  font-weight: 950;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.about-hero p {
+  max-width: 900px;
+  line-height: 1.8;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.about-box {
+  padding: 30px;
+  background: white;
+  border-radius: 28px;
+  border: 1px solid #e2e8f0;
+}
+
+.about-box h3 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 950;
+}
+
+.about-box p {
+  line-height: 1.8;
+  color: #64748b;
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   8. INTELLIGENT AGENT CHATBOT MODULE
+   ========================================================================== */
+.chatbot-button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: none;
+  background: #0f172a;
+  color: white;
+  font-size: 24px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  box-shadow: 0 15px 30px rgba(15, 23, 42, 0.2);
+  z-index: 999;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.chatbot-button:hover {
+  transform: scale(1.05);
+}
+
+.chat-window {
+  position: fixed;
+  right: 30px;
+  bottom: 110px;
+  width: 390px;
+  height: 560px;
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(15, 23, 42, 0.12);
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  border: 1px solid #e2e8f0;
+}
+
+.chat-header {
+  height: 74px;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.chat-header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: -0.2px;
+}
+
+.chat-header button {
+  border: none;
+  background: transparent;
+  color: #64748b;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.chat-header button:hover {
+  color: white;
+}
+
+.chat-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 22px;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.chat-message {
+  max-width: 85%;
+  padding: 12px 16px;
+  border-radius: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.chat-message.user {
+  align-self: flex-end;
+  background: #0f172a;
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+.chat-message.assistant {
+  align-self: flex-start;
+  background: white;
+  color: #334155;
+  border: 1px solid #e2e8f0;
+  border-bottom-left-radius: 4px;
 }
 
 .chat-explanation {
   margin-top: 10px;
-  padding: 10px;
-  background: rgba(15, 23, 42, 0.08);
-  border-left: 3px solid #1d4ed8;
-  border-radius: 10px;
+  padding: 12px;
+  background: #f1f5f9;
+  border-left: 3px solid #0f172a;
+  border-radius: 8px;
   font-size: 13px;
   line-height: 1.5;
 }
@@ -1249,7 +975,7 @@ td {
 .chat-explanation strong {
   display: block;
   margin-bottom: 5px;
-  color: #1d4ed8;
+  color: #0f172a;
 }
 
 .chat-explanation p {
@@ -1265,4 +991,1184 @@ td {
   border: 1px solid #e5e7eb;
   width: 100%;
   min-width: 320px;
+}
+
+.chat-input {
+  height: 76px;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: white;
+}
+
+.chat-input input {
+  flex: 1;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px;
+  outline: none;
+  font-size: 14px;
+  background: #f8fafc;
+  transition: border-color 0.2s;
+}
+
+.chat-input input:focus {
+  border-color: #0f172a;
+  background: white;
+}
+
+.chat-input button {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  background: #0f172a;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.chat-input button:hover {
+  background: #1e293b;
+}
+
+/* ==========================================================================
+   9. RESPONSIVE BREAKPOINTS
+   ========================================================================== */
+@media (max-width: 1200px) {
+  .home-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .info-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .metrics-row, .forecast-grid, .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .company-list {
+    grid-template-columns: 1fr;
+  }
+}
+/* =========================
+   UI POLISH + READABILITY
+========================= */
+
+body {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(30, 64, 175, 0.08), transparent 28%),
+    linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%);
+  color: #0b1220;
+}
+
+.glass-card,
+.topbar,
+.company-item,
+.metric-box,
+.chart-card,
+.suggestion-card,
+.forecast-card,
+.about-box,
+.table-card {
+  border: 1px solid #d6e0ef;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+}
+
+.panel-header h2,
+.brand-text h1,
+.overview-top h1,
+.chart-header h3,
+.forecast-hero h1,
+.about-hero h1,
+.about-box h3 {
+  color: #0b1220;
+  font-weight: 950;
+  letter-spacing: -0.6px;
+}
+
+.brand-text h1 {
+  font-size: 34px;
+}
+
+.brand-text p,
+.company-info-clean,
+.company-info-clean p,
+.chart-header p,
+.forecast-hero p,
+.about-hero p,
+.about-box p {
+  color: #42526e;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.topnav button {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.home-layout {
+  grid-template-columns: 340px 1fr 360px;
+  gap: 26px;
+}
+
+.left-panel,
+.center-panel,
+.right-panel {
+  padding: 28px;
+}
+
+.company-list {
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.company-item {
+  min-height: 104px;
+  padding: 15px;
+}
+
+.company-item h4 {
+  font-size: 16px;
+  color: #07111f;
+}
+
+.company-item p {
+  font-size: 12px;
+  color: #475569;
+}
+
+.company-item strong {
+  font-size: 15px;
+}
+
+.company-logo {
+  width: 44px;
+  height: 44px;
+}
+
+.overview-top h1 {
+  font-size: 50px;
+}
+
+.company-info-clean {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.company-info-clean span {
+  color: #334155;
+  font-weight: 950;
+}
+
+.overview-logo {
+  width: 150px;
+  height: 150px;
+}
+
+.metrics-row {
+  gap: 20px;
+}
+
+.metric-box {
+  padding: 26px;
+  min-height: 112px;
+}
+
+.metric-box span {
+  font-size: 13px;
+  color: #475569;
+  font-weight: 950;
+}
+
+.metric-box h2 {
+  font-size: 34px;
+  color: #07111f;
+}
+
+.period-tabs button {
+  font-size: 14px;
+  font-weight: 950;
+  padding: 13px 20px;
+}
+
+.chart-card {
+  padding: 28px;
+}
+
+.chart-header h3 {
+  font-size: 28px;
+}
+
+.chart-header select {
+  font-size: 14px;
+  font-weight: 950;
+}
+
+.info-grid span {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.info-grid strong {
+  color: #07111f;
+  font-size: 16px;
+  font-weight: 950;
+}
+
+.suggestion-card {
+  padding: 18px;
+  border-radius: 24px;
+}
+
+.suggestion-main {
+  grid-template-columns: 54px 1fr auto;
+}
+
+.suggestion-main img {
+  width: 52px;
+  height: 52px;
+}
+
+.suggestion-info h4 {
+  font-size: 16px;
+}
+
+.suggestion-info p,
+.suggestion-info small,
+.suggestion-footer span {
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.change-pill {
+  font-size: 12px;
+  padding: 7px 11px;
+}
+
+.view-details-btn {
+  font-size: 12px;
+  padding: 8px 14px;
+  font-weight: 900;
+}
+
+/* Forecast page readability */
+.forecast-card span {
+  font-size: 14px;
+  font-weight: 950;
+  color: #475569;
+}
+
+.forecast-card h2 {
+  font-size: 42px;
+  line-height: 1.1;
+  color: #07111f;
+}
+
+.forecast-card p {
+  font-size: 20px;
+  font-weight: 950;
+}
+
+.forecast-positive {
+  color: #16a34a !important;
+}
+
+.forecast-negative {
+  color: #dc2626 !important;
+}
+
+.forecast-neutral {
+  color: #2563eb !important;
+}
+
+/* ========================================================================== 
+   10. MODERN THEME REFRESH + SPACING REFINEMENT
+   ========================================================================== */
+:root {
+  --surface: #ffffff;
+  --surface-soft: #f6f8fb;
+  --surface-tint: #eef7f4;
+  --ink: #111827;
+  --muted: #5f6f85;
+  --line: #dbe3ee;
+  --brand: #0f766e;
+  --brand-dark: #115e59;
+  --brand-soft: #d9f3ee;
+  --accent: #f97316;
+  --accent-soft: #fff3e8;
+  --danger: #dc2626;
+  --success: #059669;
+  --warning: #ca8a04;
+  --shadow-sm: 0 6px 18px rgba(17, 24, 39, 0.06);
+  --shadow-md: 0 16px 38px rgba(17, 24, 39, 0.09);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(15, 118, 110, 0.12), transparent 30%),
+    radial-gradient(circle at 95% 12%, rgba(249, 115, 22, 0.1), transparent 26%),
+    linear-gradient(135deg, #f7fafc 0%, #edf4f3 52%, #f8fafc 100%);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+select,
+input {
+  font-family: inherit;
+}
+
+.app-container {
+  width: min(1920px, 100%);
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.glass-card,
+.topbar {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(219, 227, 238, 0.9);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.company-item,
+.metric-box,
+.stock-extra-info,
+.chart-card,
+.suggestion-card,
+.forecast-card,
+.about-box,
+.table-card,
+.ai-modal,
+.modal-stats div,
+.empty-suggestion,
+.chat-window,
+.chat-message.assistant,
+.chat-trend-chart {
+  border-color: var(--line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.left-panel,
+.center-panel,
+.right-panel,
+.about-hero,
+.forecast-hero {
+  border-radius: var(--radius-lg);
+}
+
+.topbar {
+  min-height: 84px;
+  height: auto;
+  gap: 18px;
+  padding: 18px 24px;
+  margin-bottom: 24px;
+}
+
+.logo-section {
+  min-width: 0;
+}
+
+.brand-text h1 {
+  font-size: clamp(24px, 2.2vw, 34px);
+  line-height: 1.05;
+  color: var(--ink);
+  letter-spacing: 0;
+}
+
+.brand-text p,
+.overview-top p,
+.chart-header p,
+.forecast-hero p,
+.about-hero p,
+.about-box p,
+.company-item p,
+.suggestion-info small,
+.suggestion-footer span {
+  color: var(--muted);
+}
+
+.rseb-right-logo img {
+  width: 58px;
+  height: 58px;
+}
+
+.topnav {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.topnav button,
+.period-tabs button,
+.chart-header select,
+.forecast-company-select select,
+.chat-input input {
+  border-radius: var(--radius-sm);
+}
+
+.topnav button {
+  min-height: 42px;
+  padding: 10px 15px;
+  color: #334155;
+}
+
+.topnav button:hover,
+.period-tabs button:hover {
+  background: var(--surface-tint);
+  color: var(--brand-dark);
+  border-color: rgba(15, 118, 110, 0.24);
+}
+
+.active-nav,
+.active-period,
+.run-btn,
+.view-details-btn,
+.chatbot-button,
+.chat-header,
+.chat-message.user,
+.chat-input button,
+.overview-label {
+  background: var(--brand) !important;
+  color: #ffffff !important;
+  border-color: var(--brand) !important;
+  box-shadow: 0 10px 24px rgba(15, 118, 110, 0.2);
+}
+
+.run-btn:hover,
+.view-details-btn:hover,
+.chat-input button:hover {
+  background: var(--brand-dark) !important;
+}
+
+.home-layout {
+  grid-template-columns: minmax(280px, 340px) minmax(0, 1fr) minmax(280px, 360px);
+  gap: 20px;
+}
+
+.left-panel,
+.center-panel,
+.right-panel {
+  padding: 22px;
+}
+
+.panel-header {
+  margin-bottom: 16px;
+}
+
+.panel-header h2,
+.chart-header h3,
+.about-box h3 {
+  font-size: clamp(20px, 1.6vw, 26px);
+  letter-spacing: 0;
+}
+
+.company-list {
+  gap: 10px;
+}
+
+.company-item {
+  min-height: 96px;
+  padding: 13px;
+  background: var(--surface);
+}
+
+.company-item:hover {
+  border-color: rgba(15, 118, 110, 0.45);
+  box-shadow: var(--shadow-md);
+}
+
+.selected-company {
+  background: var(--brand-soft);
+  border-color: var(--brand);
+  box-shadow: inset 0 0 0 1px var(--brand);
+}
+
+.company-logo,
+.suggestion-main img {
+  border-radius: var(--radius-sm);
+  background: var(--surface-soft);
+}
+
+.overview-top {
+  gap: 22px;
+}
+
+.overview-top h1,
+.forecast-hero h1,
+.about-hero h1 {
+  font-size: clamp(34px, 4vw, 50px);
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.overview-top p,
+.forecast-hero p,
+.about-hero p,
+.about-box p {
+  line-height: 1.65;
+}
+
+.overview-logo {
+  width: clamp(96px, 10vw, 140px);
+  height: clamp(96px, 10vw, 140px);
+  flex: 0 0 auto;
+}
+
+.company-info-clean {
+  margin-top: 16px;
+  padding: 14px 16px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.company-info-clean a,
+.show-more-btn {
+  color: var(--brand);
+}
+
+.metrics-row,
+.forecast-grid {
+  grid-template-columns: repeat(4, minmax(150px, 1fr));
+  gap: 14px;
+}
+
+.metric-box,
+.forecast-card {
+  padding: 20px;
+  min-height: 108px;
+}
+
+.metric-box h2 {
+  font-size: clamp(24px, 2vw, 32px);
+}
+
+.metric-box span,
+.forecast-card span,
+th {
+  color: #4b5f76;
+  letter-spacing: 0.04em;
+}
+
+.stock-extra-info,
+.chart-card {
+  margin-top: 22px;
+  padding: 20px;
+}
+
+.info-grid {
+  gap: 12px 22px;
+}
+
+.info-grid div {
+  min-width: 0;
+  gap: 12px;
+}
+
+.period-tabs {
+  flex-wrap: wrap;
+  margin-top: 22px;
+}
+
+.period-tabs button {
+  border-color: var(--line);
+}
+
+.chart-header,
+.history-header,
+.forecast-hero,
+.overview-top {
+  flex-wrap: wrap;
+}
+
+.suggestion-list {
+  gap: 12px;
+}
+
+.suggestion-main {
+  grid-template-columns: 48px minmax(0, 1fr) auto;
+}
+
+.suggestion-info h4,
+.company-item h4 {
+  overflow-wrap: anywhere;
+}
+
+.change-pill {
+  border-radius: 999px;
+}
+
+.positive-pill {
+  background: #dff8ea;
+  color: #047857;
+}
+
+.negative-pill {
+  background: #ffe4e6;
+  color: #be123c;
+}
+
+.action-text.buy,
+.green,
+.forecast-positive {
+  color: var(--success) !important;
+}
+
+.action-text.sell,
+.red,
+.forecast-negative {
+  color: var(--danger) !important;
+}
+
+.action-text.hold {
+  color: var(--warning);
+}
+
+.forecast-hero,
+.about-hero {
+  align-items: flex-start;
+  padding: clamp(24px, 3vw, 36px);
+}
+
+.forecast-card h2 {
+  font-size: clamp(30px, 3vw, 42px);
+}
+
+.table-card {
+  padding: 18px;
+}
+
+th,
+td {
+  padding: 13px 14px;
+}
+
+th {
+  background: #eef7f4;
+  color: var(--brand-dark);
+}
+
+.chat-window {
+  width: min(390px, calc(100vw - 32px));
+  height: min(560px, calc(100vh - 140px));
+  right: 24px;
+  bottom: 104px;
+}
+
+.chatbot-button {
+  right: 24px;
+  bottom: 24px;
+}
+
+.ai-note {
+  background: var(--accent-soft);
+  color: #9a3412;
+  border-color: #fed7aa;
+}
+
+@media (max-width: 1400px) {
+  .home-layout {
+    grid-template-columns: 310px minmax(0, 1fr);
+  }
+
+  .right-panel {
+    grid-column: 1 / -1;
+  }
+
+  .suggestion-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1100px) {
+  .topbar {
+    align-items: flex-start;
+    grid-template-columns: 1fr;
+    height: auto;
+    row-gap: 18px;
+  }
+
+  .topnav {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .home-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .metrics-row,
+  .forecast-grid,
+  .info-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .suggestion-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .app-container {
+    padding: 14px;
+  }
+
+  .topbar,
+  .left-panel,
+  .center-panel,
+  .right-panel,
+  .chart-card,
+  .stock-extra-info,
+  .forecast-hero,
+  .about-hero,
+  .about-box,
+  .table-card {
+    padding: 16px;
+  }
+
+  .logo-section {
+    align-items: flex-start;
+  }
+
+  .rseb-right-logo img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .topnav button {
+    flex: 1 1 140px;
+    justify-content: center;
+  }
+
+  .overview-top {
+    align-items: flex-start;
+  }
+
+  .overview-logo {
+    width: 86px;
+    height: 86px;
+  }
+
+  .company-list,
+  .metrics-row,
+  .forecast-grid,
+  .info-grid,
+  .about-grid,
+  .modal-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .info-grid div,
+  .suggestion-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .chart-header {
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .chart-header select {
+    width: 100%;
+  }
+
+  .forecast-hero {
+    gap: 18px;
+  }
+
+  .run-btn {
+    width: 100%;
+  }
+
+  .chat-window {
+    right: 12px;
+    bottom: 92px;
+    width: calc(100vw - 24px);
+  }
+
+  .chatbot-button {
+    right: 16px;
+    bottom: 16px;
+  }
+}
+
+/* ========================================================================== 
+   11. RSEB LOGO COLOR BACKGROUND OVERRIDE
+   ========================================================================== */
+:root {
+  --brand: #3b2f82;
+  --brand-dark: #281f63;
+  --brand-soft: #ece9ff;
+  --accent: #1f638d;
+  --accent-soft: #e6f3fb;
+}
+
+body {
+  background:
+    radial-gradient(circle at 10% 0%, rgba(59, 47, 130, 0.18), transparent 32%),
+    radial-gradient(circle at 92% 10%, rgba(31, 99, 141, 0.16), transparent 30%),
+    linear-gradient(135deg, #f6f5ff 0%, #edf6fb 48%, #f8fafc 100%);
+}
+
+.topbar {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(245, 248, 255, 0.9));
+  border-color: rgba(59, 47, 130, 0.14);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.88);
+  border-color: rgba(31, 99, 141, 0.14);
+}
+
+.active-nav,
+.active-period,
+.run-btn,
+.view-details-btn,
+.chatbot-button,
+.chat-header,
+.chat-message.user,
+.chat-input button,
+.overview-label {
+  background: linear-gradient(135deg, #3b2f82, #1f638d) !important;
+  border-color: #3b2f82 !important;
+  box-shadow: 0 10px 24px rgba(59, 47, 130, 0.22);
+}
+
+.topnav button:hover,
+.period-tabs button:hover {
+  background: var(--brand-soft);
+  color: var(--brand-dark);
+  border-color: rgba(59, 47, 130, 0.22);
+}
+
+.selected-company {
+  background: linear-gradient(135deg, #f0edff, #eaf6fb);
+  border-color: #3b2f82;
+  box-shadow: inset 0 0 0 1px #3b2f82;
+}
+
+.company-info-clean,
+th {
+  background: #f0f4ff;
+}
+
+.company-info-clean a,
+.show-more-btn {
+  color: #1f638d;
+}
+
+.ai-note {
+  background: #eef4ff;
+  color: #2f2674;
+  border-color: #d9d4ff;
+}
+
+/* ========================================================================== 
+   12. DASHBOARD AESTHETIC REFINEMENT
+   ========================================================================== */
+:root {
+  --surface-soft: #f7f9fc;
+  --line: #e1e7f0;
+  --muted: #617087;
+  --shadow-sm: 0 8px 22px rgba(15, 23, 42, 0.045);
+  --shadow-md: 0 16px 34px rgba(15, 23, 42, 0.08);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 14px;
+}
+
+body {
+  background:
+    radial-gradient(circle at 9% 0%, rgba(59, 47, 130, 0.09), transparent 26%),
+    radial-gradient(circle at 94% 8%, rgba(31, 99, 141, 0.08), transparent 24%),
+    linear-gradient(135deg, #f8fafc 0%, #eef5f8 50%, #f7f9fc 100%);
+}
+
+.app-container {
+  padding: 22px 26px;
+}
+
+.topbar {
+  min-height: 78px;
+  padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.94);
+  border-color: rgba(214, 224, 238, 0.95);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.055);
+}
+
+.brand-text h1 {
+  font-size: clamp(24px, 2vw, 32px);
+  font-weight: 850;
+}
+
+.brand-text p {
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.rseb-right-logo img {
+  width: 54px;
+  height: 54px;
+}
+
+.topnav {
+  gap: 6px;
+}
+
+.topnav button {
+  min-height: 38px;
+  padding: 9px 14px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 750;
+  color: #3d4a5f;
+}
+
+.topnav button:hover {
+  background: #f3f0ff;
+  border-color: rgba(59, 47, 130, 0.14);
+}
+
+.active-nav,
+.active-period,
+.run-btn,
+.view-details-btn,
+.chatbot-button,
+.chat-header,
+.chat-message.user,
+.chat-input button,
+.overview-label {
+  background: #3b2f82 !important;
+  box-shadow: 0 8px 18px rgba(59, 47, 130, 0.18);
+}
+
+.glass-card,
+.company-item,
+.metric-box,
+.stock-extra-info,
+.chart-card,
+.suggestion-card,
+.forecast-card,
+.about-box,
+.table-card,
+.ai-modal,
+.chat-window {
+  background: rgba(255, 255, 255, 0.96);
+  border-color: var(--line);
+  box-shadow: var(--shadow-sm);
+}
+
+.glass-card,
+.topbar,
+.left-panel,
+.center-panel,
+.right-panel,
+.forecast-hero,
+.about-hero {
+  border-radius: var(--radius-lg);
+}
+
+.company-item,
+.metric-box,
+.stock-extra-info,
+.chart-card,
+.suggestion-card,
+.forecast-card,
+.about-box,
+.table-card,
+.company-info-clean {
+  border-radius: var(--radius-md);
+}
+
+.panel-header h2,
+.overview-top h1,
+.chart-header h3,
+.forecast-hero h1,
+.about-hero h1,
+.about-box h3 {
+  font-weight: 850;
+}
+
+.company-item h4,
+.suggestion-info h4,
+.metric-box h2,
+.forecast-card h2,
+.info-grid strong {
+  font-weight: 800;
+}
+
+.company-item p,
+.suggestion-info p,
+.suggestion-info small,
+.suggestion-footer span,
+.metric-box span,
+.forecast-card span,
+.info-grid span,
+th {
+  font-weight: 700;
+}
+
+.home-layout {
+  gap: 22px;
+}
+
+.left-panel,
+.center-panel,
+.right-panel {
+  padding: 22px;
+}
+
+.panel-header {
+  margin-bottom: 14px;
+}
+
+.company-list {
+  gap: 10px;
+}
+
+.company-item {
+  min-height: 88px;
+  padding: 12px;
+}
+
+.company-item:hover,
+.suggestion-card:hover,
+.metric-box:hover {
+  border-color: rgba(59, 47, 130, 0.22);
+  box-shadow: var(--shadow-md);
+}
+
+.company-logo {
+  width: 38px;
+  height: 38px;
+}
+
+.company-item h4 {
+  font-size: 14px;
+}
+
+.company-item strong {
+  font-size: 13px;
+}
+
+.overview-top {
+  gap: 18px;
+}
+
+.overview-top h1 {
+  font-size: clamp(34px, 3.5vw, 46px);
+}
+
+.overview-logo {
+  width: clamp(92px, 9vw, 128px);
+  height: clamp(92px, 9vw, 128px);
+}
+
+.company-info-clean {
+  background: #f7f9ff;
+  padding: 13px 15px;
+}
+
+.company-info-clean span {
+  font-weight: 800;
+}
+
+.metrics-row,
+.forecast-grid {
+  gap: 12px;
+}
+
+.metric-box,
+.forecast-card {
+  min-height: 96px;
+  padding: 17px;
+}
+
+.metric-box h2 {
+  font-size: clamp(24px, 1.8vw, 30px);
+}
+
+.period-tabs {
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.period-tabs button {
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 750;
+}
+
+.chart-card,
+.stock-extra-info {
+  margin-top: 18px;
+  padding: 18px;
+}
+
+.chart-header {
+  margin-bottom: 16px;
+}
+
+.chart-header h3 {
+  font-size: clamp(20px, 1.5vw, 24px);
+}
+
+.chart-header select,
+.forecast-company-select select {
+  font-weight: 700;
+}
+
+.suggestion-card {
+  padding: 14px;
+}
+
+.suggestion-main {
+  grid-template-columns: 44px minmax(0, 1fr) auto;
+  gap: 11px;
+}
+
+.suggestion-main img {
+  width: 42px;
+  height: 42px;
+}
+
+.change-pill {
+  padding: 6px 10px;
+  font-weight: 700;
+}
+
+.view-details-btn {
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-weight: 750;
+}
+
+th {
+  background: #f3f6ff;
 }

@@ -56,6 +56,8 @@ export default function App() {
 
   const [predictionHistory, setPredictionHistory] = useState([]);
 
+  const [forecastLock, setForecastLock] = useState(false);
+
   const [showHistory, setShowHistory] = useState(false);
 
   const [stockSuggestions, setStockSuggestions] = useState([]);
@@ -104,10 +106,10 @@ export default function App() {
   }, [selectedCompany, period]);
 
   const loadCompanyData = async (company, selectedPeriod) => {
-    setPrediction(null);
-    setPredictionHistory([]);
+  setPrediction(null);
+  setPredictionHistory([]);
 
-    try {
+  try {
 
       const dash = await API.get(
   `/dashboard/${company}?period=${selectedPeriod}`
@@ -171,23 +173,30 @@ setShowFullProfile(false);
 };
 
   const runForecast = async () => {
-  if (!selectedCompany) return;
+  if (forecastLock || predictionLoading) return;
 
+  const companyToPredict = selectedCompany;
+
+  if (!companyToPredict) return;
+
+  setForecastLock(true);
   setPredictionLoading(true);
   setPrediction(null);
 
   try {
     const pred = await API.get(
-      `/predict/${selectedCompany}?scrape_latest=false&headless=true`
+      `/predict/${companyToPredict}?scrape_latest=false&headless=true`
     );
 
+    const forecastData = pred.data.data;
+
     setPrediction({
-      ...pred.data.data,
-      company: selectedCompany
+      ...forecastData,
+      company: companyToPredict.toUpperCase()
     });
 
     const history = await API.get(
-      `/prediction-history?company=${selectedCompany}`
+      `/prediction-history?company=${companyToPredict}`
     );
 
     setPredictionHistory(history.data.history || []);
@@ -196,6 +205,10 @@ setShowFullProfile(false);
     setPrediction(null);
   } finally {
     setPredictionLoading(false);
+
+    setTimeout(() => {
+      setForecastLock(false);
+    }, 1000);
   }
 };
   const sendFinancialChat = async () => {
@@ -259,7 +272,7 @@ setChatMessages((prev) => [
     return <div className="loading">Loading...</div>;
   }
 
-  const chartData = dashboard.chart_data || [];
+  const chartData = (dashboard.chart_data || []).slice(-300);
 
   const trend = dashboard.metrics?.trend || "N/A";
 
@@ -271,7 +284,8 @@ setChatMessages((prev) => [
 
   const buildForecastChartData = () => {
   const historical = chartData.map((row) => ({
-    ...row,
+    Date: row.Date,
+    Close: Number(row.Close),
     sevenDayForecast: null,
     thirtyDayForecast: null
   }));
@@ -291,21 +305,13 @@ setChatMessages((prev) => [
   day30.setDate(day30.getDate() + 30);
 
   return [
-    ...historical.slice(0, -1),
-
-    {
-      ...lastRow,
-      sevenDayForecast: lastClose,
-      thirtyDayForecast: lastClose
-    },
-
+    ...historical,
     {
       Date: day7.toISOString().split("T")[0],
       Close: null,
       sevenDayForecast: Number(activePrediction.predicted_week_price),
       thirtyDayForecast: null
     },
-
     {
       Date: day30.toISOString().split("T")[0],
       Close: null,
@@ -737,12 +743,16 @@ const forecastChartData = buildForecastChartData();
   <label>Select Company</label>
 
   <select
-    onChange={(e) => {
-  setSelectedCompany(e.target.value);
-  setPrediction(null);
-  setPredictionHistory([]);
-}}
-  >
+  value={selectedCompany}
+  onChange={(e) => {
+    const newCompany = e.target.value;
+
+    setSelectedCompany(newCompany);
+    setPrediction(null);
+    setPredictionHistory([]);
+    setPredictionLoading(false);
+  }}
+>
     {companies.map((company) => (
       <option key={company} value={company}>
         {company}
@@ -755,12 +765,12 @@ const forecastChartData = buildForecastChartData();
             </div>
 
             <button
-              className="run-btn"
-              onClick={runForecast}
-              disabled={predictionLoading}
-            >
-              {predictionLoading ? "Running..." : "Run Forecast"}
-            </button>
+  className="run-btn"
+  onClick={runForecast}
+  disabled={predictionLoading || forecastLock}
+>
+  {predictionLoading ? "Running..." : "Run Forecast"}
+</button>
 
           </section>
 
@@ -855,11 +865,19 @@ const forecastChartData = buildForecastChartData();
         ? `Nu. ${activePrediction.predicted_week_price}`
         : "N/A"}
     </h2>
-    <p>
-      {activePrediction?.week_change_percent !== undefined
-        ? `${activePrediction.week_change_percent}%`
-        : "N/A"}
-    </p>
+    <p
+  className={
+    Number(activePrediction?.week_change_percent) > 0
+      ? "forecast-positive"
+      : Number(activePrediction?.week_change_percent) < 0
+      ? "forecast-negative"
+      : "forecast-neutral"
+  }
+>
+  {activePrediction?.week_change_percent !== undefined
+    ? `${activePrediction.week_change_percent}%`
+    : "N/A"}
+</p>
   </div>
 
   <div className="forecast-card">
@@ -869,7 +887,15 @@ const forecastChartData = buildForecastChartData();
         ? `Nu. ${activePrediction.predicted_month_price}`
         : "N/A"}
     </h2>
-    <p>
+    <p
+  className={
+    Number(activePrediction?.month_change_percent) > 0
+      ? "forecast-positive"
+      : Number(activePrediction?.month_change_percent) < 0
+      ? "forecast-negative"
+      : "forecast-neutral"
+  }
+>
       {activePrediction?.month_change_percent !== undefined
         ? `${activePrediction.month_change_percent}%`
         : "N/A"}
@@ -1173,59 +1199,36 @@ const forecastChartData = buildForecastChartData();
       </div>
 
       <p className="ai-note">
-  AI Insight: {
+        AI Insight: {
+          (() => {
+            const direction = selectedSuggestion.reason?.predicted_direction;
+            const confidence = Number(selectedSuggestion.reason?.direction_confidence || 0);
+            const week = Number(selectedSuggestion.reason?.week_change_percent || 0);
+            const month = Number(selectedSuggestion.reason?.month_change_percent || 0);
+            const company = selectedSuggestion.recommended_company;
 
-    (() => {
+            if (direction === "UP") {
+              if (confidence > 80) {
+                return `${company} demonstrates strong bullish momentum with high AI confidence and positive projected growth in upcoming trading sessions.`;
+              }
+              return `${company} is showing moderate upward movement supported by improving short-term market sentiment and forecast trends.`;
+            }
 
-      const direction =
-        selectedSuggestion.reason?.predicted_direction;
+            if (direction === "DOWN") {
+              if (month < 0) {
+                return `${company} reflects declining market behaviour with weaker future outlook and reduced momentum across recent trading periods.`;
+              }
+              return `${company} indicates cautious trading activity despite short-term market fluctuations and lower directional confidence.`;
+            }
 
-      const confidence =
-        Number(
-          selectedSuggestion.reason?.direction_confidence || 0
-        );
+            if (Math.abs(week) < 0.5 && Math.abs(month) < 0.5) {
+              return `${company} is maintaining relatively stable price behaviour with low volatility and balanced investor activity.`;
+            }
 
-      const week =
-        Number(
-          selectedSuggestion.reason?.week_change_percent || 0
-        );
-
-      const month =
-        Number(
-          selectedSuggestion.reason?.month_change_percent || 0
-        );
-
-      const company =
-        selectedSuggestion.recommended_company;
-
-      if (direction === "UP") {
-
-        if (confidence > 80) {
-          return `${company} demonstrates strong bullish momentum with high AI confidence and positive projected growth in upcoming trading sessions.`;
+            return `${company} is showing no strong directional signal at this time.`;
+          })()
         }
-
-        return `${company} is showing moderate upward movement supported by improving short-term market sentiment and forecast trends.`;
-      }
-
-      if (direction === "DOWN") {
-
-        if (month < 0) {
-          return `${company} reflects declining market behaviour with weaker future outlook and reduced momentum across recent trading periods.`;
-        }
-
-        return `${company} indicates cautious trading activity despite short-term market fluctuations and lower directional confidence.`;
-      }
-
-      if (Math.abs(week) < 1) {
-        return `${company} is maintaining relatively stable price behaviour with low volatility and balanced investor activity.`;
-      }
-
-      return `${company} currently exhibits neutral trading behaviour with mixed technical indicators and moderate market movement.`;
-
-    })()
-
-  }
-</p>
+      </p>
 
     </div>
   </div>

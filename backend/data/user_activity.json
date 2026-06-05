@@ -901,5 +901,1398 @@
         "action_type": "prediction_view",
         "source": "forecast",
         "timestamp": "2026-05-27T15:58:20.982718"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T17:00:34.125958"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T17:01:20.597268"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T17:01:46.972711"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T17:01:58.071266"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T17:04:41.732071"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T17:04:45.248559"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T17:04:45.971678"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T17:04:46.535469"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T17:16:38.312846"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-27T17:17:03.244991"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T17:17:09.974833"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T17:17:22.165997"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T17:17:28.899275"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-05-27T17:17:29.776593"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-05-28T00:12:18.107075"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T12:54:20.128618"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T12:55:12.624423"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:55:17.342346"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:25.426038"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:28.870880"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:29.405765"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:29.857498"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:30.398956"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:31.103284"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:31.709273"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:32.577702"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:33.373469"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:33.897296"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:34.459990"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:35.271564"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:35.982661"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:36.494895"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:37.144356"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:56:37.640193"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:57:12.838006"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:57:13.633975"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:57:14.186625"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:57:14.729142"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:57:15.210388"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:59:12.902080"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T12:59:13.505479"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:05:58.855196"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:06:31.071882"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:07:00.040159"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:07:33.690389"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:07:39.565390"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:15:32.236472"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:15:58.795684"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:16:09.297333"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:16:15.157604"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:17:35.641244"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:18:02.345748"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:18:22.489333"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:18:33.925912"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:18:38.966195"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:18:41.773131"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:18:58.887563"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:18:59.591259"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:19:00.140657"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:19:00.600594"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:19:01.696274"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:19:02.201748"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:19:15.344241"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:19:16.232377"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:19:16.715513"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:19:17.354492"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:19:17.849328"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:19:36.582067"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:22:35.872826"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:23:04.516543"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:23:20.142558"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:23:24.935494"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:23:25.617927"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:23:32.893227"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:23:34.615909"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:23:36.322416"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:23:37.119784"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:23:40.498089"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:23:53.365816"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:27:49.640093"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:28:16.737883"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:28:37.874065"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:28:52.852772"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:33:07.100181"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:37:02.968181"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:37:13.025884"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:37:18.122968"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BPCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:37:39.560403"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BPCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:37:55.828891"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:38:17.566773"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:38:31.905584"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:39:07.893424"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:39:16.606622"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BNBL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T13:46:11.088304"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BNBL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T13:46:28.650484"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T14:03:16.257495"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T14:03:48.932221"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DWAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T14:03:51.525169"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DWAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T14:04:30.178612"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T14:04:43.765172"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T14:04:46.843551"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T14:05:35.578906"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T14:05:40.347253"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T14:08:03.711746"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T14:23:23.861619"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T14:28:46.835344"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T14:44:58.028247"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T14:45:01.214683"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T14:45:24.812581"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T15:46:53.193587"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T15:48:45.123018"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-06-02T15:49:52.481731"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-06-02T15:51:18.898496"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-06-02T15:51:45.290857"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T15:52:42.363647"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-06-02T15:59:09.997001"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-06-02T15:59:30.796805"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T15:59:43.309617"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T16:00:04.992904"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-02T16:00:09.020032"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-02T16:00:10.888413"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T14:01:43.148066"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T14:50:37.223730"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T14:52:02.992719"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T14:53:09.344049"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T14:53:12.602014"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-06-04T14:54:27.235507"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T15:04:41.924307"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T15:06:04.102823"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T15:15:57.683351"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:05:05.167728"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "KCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:09:05.907364"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "KCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T19:09:15.157240"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "STCB",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:09:44.329301"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "STCB",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T19:09:52.295027"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:43:48.812095"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:44:15.367849"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T19:44:18.486403"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "RICB",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:44:32.590695"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "RICB",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T19:44:40.808673"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:45:13.357411"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T19:45:15.756740"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "TBL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:45:35.631778"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "TBL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T19:45:43.351183"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BNBL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:45:50.204071"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BNBL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T19:45:52.368815"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BCCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:46:00.172585"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:46:02.876137"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T19:46:06.525451"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:50:36.147285"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:51:10.934034"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:51:17.821081"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:51:20.980699"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:51:22.791970"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:51:25.012993"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:51:37.921103"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:51:44.699876"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:52:13.471911"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:52:52.465671"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T19:54:25.542654"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T20:02:23.380494"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T20:04:36.992782"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T20:15:41.029463"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T20:20:46.634324"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "TBANK",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-06-04T20:23:30.820393"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T20:27:09.140704"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BIL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T20:27:12.429167"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T20:55:09.974324"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T20:59:47.580255"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T21:09:12.091541"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T21:34:10.364926"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T21:34:18.702963"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T21:34:44.250798"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T21:34:52.400346"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T21:35:29.847826"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T21:35:45.427198"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T21:36:00.148174"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T21:36:08.646649"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T21:44:56.128863"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T21:45:22.772938"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T21:46:27.659346"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T21:46:58.409378"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T21:53:37.629926"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T21:53:41.278487"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T21:53:50.657236"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BFAL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T21:53:53.886668"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T23:18:14.155232"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T23:38:52.194338"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T23:38:55.181643"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPL",
+        "action_type": "chat_query",
+        "source": "financial_agent",
+        "timestamp": "2026-06-04T23:39:51.377509"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "RICB",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T23:40:14.095182"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "RICB",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T23:42:31.483578"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPNB",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T23:44:14.348295"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPNB",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T23:44:23.584322"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T23:45:26.774400"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "DPL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T23:54:18.796807"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T23:54:48.038739"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BTCL",
+        "action_type": "prediction_view",
+        "source": "forecast",
+        "timestamp": "2026-06-04T23:54:51.786816"
+    },
+    {
+        "user_id": "demo_user",
+        "company": "BBPL",
+        "action_type": "overview_view",
+        "source": "dashboard",
+        "timestamp": "2026-06-04T23:55:38.620079"
     }
 ]
